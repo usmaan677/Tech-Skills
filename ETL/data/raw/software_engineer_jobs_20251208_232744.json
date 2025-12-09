@@ -1,0 +1,1478 @@
+{
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 5760,
+  "mean": 137779.95,
+  "results": [
+    {
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-28T06:29:44Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Capital One - CA"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNzYwMjM1NiIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.oBHMVw_1bhCk2Sn7GDFli2LqVISCSf9iclystv7AZjY",
+      "latitude": 43.706102,
+      "id": "5517602356",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5517602356?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=4EAFCFED6CDC5568961CD4280480C33B8384E6B6",
+      "longitude": -79.402726,
+      "description": "Job Description 161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Staff Software Engineer Staff Software Engineer About Capital One Canada. For over 20 years, we’ve been on a mission to change banking for good and build relationships by making credit accessible, simple, intuitive and rewarding. We want to help Canadians succeed with credit, because we believe in people — in our customers, in our associates, and in talent like you! Our Capital One Software Studio. Since 2014, Capital One…",
+      "title": "Staff Software Engineer",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Job Description 161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Senior Software Engineering Manager Our Capital One Software Studio. Since 2014, Capital One Canada’s software studio has grown from a team of 10 to a team of over 270. We’re passionate about what we do, and we’re always on the lookout for people who want to make a difference in the world of credit through technology. We’re obsessed with doing the right thing, and we achieve that by finding innovative ways to better serve…",
+      "title": "Senior Software Engineering Manager",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5504743504?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=E92ADACD5F7F66CD04DA45FFECB088146967B205",
+      "id": "5504743504",
+      "company": {
+        "display_name": "Capital One - CA",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTA0NzQzNTA0In0.oEb7diO8uFzQ5ejY0HW8pwRFQBq5zSJrsyC1Jpbdzag",
+      "latitude": 43.706102,
+      "created": "2025-11-20T00:56:41Z",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ4MTA3MTEzNCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.LEUM7iQrn3JYoJMarvTrwO068uky8fgCgMr56honNzY",
+      "company": {
+        "display_name": "LanceSoft, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "id": "5481071134",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "created": "2025-11-04T16:03:16Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5481071134?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=820916C35C61C5985A3925AC07DA82D94D117E58",
+      "title": "Software Engineer",
+      "description": "We need Pega Developer with some admin We need person to relocate upon offer at Montreal, QC at own expenses. The Workflow Orchestration area that houses the Community of Practice also has several development teams providing Pega transformation solutions supporting Operations. As a Pega Administrator, you will be responsible for the administration, maintenance, and support of our Pega platform, ensuring high availability, performance, and security of our business-critical applications.You will …"
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Full Stack Developer – Financial Markets Location: Montreal Sector: Information Technology, Financial Markets & Treasury Are you ready to take ownership of the full development lifecycle and build impactful solutions for the financial markets? Our client, a leading institution in the sector, is seeking a Full Stack Developer to join their dynamic Financial Markets development team. The Role As a Full Stack Developer, you will: Full Cycle Development : Manage the entire process from gathering bu…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5509062239?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=D105F93B44D0033AC19047F8C0F96608AEC9E5F5",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-22T08:46:38Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "id": "5509062239",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTA5MDYyMjM5In0.owMx3WGuMUWuymPlpxYoNhwZO9C4OcZhisOk0RQzhoE",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Caspian One",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "created": "2025-11-13T07:25:39Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "id": "5493666127",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tata Consultancy Services"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5MzY2NjEyNyIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.lL2SCkUk3lhYIRX-oD0dHSNjBJ6vDpRh8EDBfxWQKw0",
+      "latitude": 43.706102,
+      "title": "Software Engineer",
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5493666127?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=3242DBBDB4D168B8DA4B326EEB5EA59710DD37D4",
+      "longitude": -79.402726,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      }
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Senior API Software Developer – Short Job Description (Client-Free) Pay Rate: CAD$80-CAD$90/Hr Location: Toronto, ON Overview Seeking a Senior API Software Developer (8 years’ experience) to design, build, and optimize RESTful APIs and microservices for a large-scale digital transformation program. Role is hybrid, full-time, and requires strong hands-on development, integration, and cloud experience. Key Responsibilities Design and document RESTful APIs, including endpoints, data models, authen…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5498295385?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=438362A3174730EB32861C3E0B5C35F51B374C4D",
+      "longitude": -79.402726,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "created": "2025-11-15T15:33:52Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "id": "5498295385",
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Russell Tobin"
+      },
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDk4Mjk1Mzg1In0.kCdYl09VD5xwhvIrRC-Jvn6BCdg2hscEHzu6nwlZBE4"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Principal Software Engineer",
+      "description": "Job Title : Principal Software Engineer Location : Toronto, Ontario Job Type : Full Time Our client is looking for a Principal Software Engineer - Backend who thrives in a collaborative, Agile environment and loves solving complex problems. What You’ll Do Design and develop backend solutions for diverse projects. Build robust applications using object-oriented programming principles. Apply Test-Driven Development (TDD) from start to production. Research and experiment with emerging tools and te…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369489?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=2AD00165DADC5C1361CF5EB56ABABE0382E4A663",
+      "contract_time": "full_time",
+      "id": "5532369489",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTMyMzY5NDg5In0.bz7fy_rSVHmqE7UW-4-dPVM7z29HQIucGozUS9N63hU",
+      "company": {
+        "display_name": "SoTalent",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-07T11:01:40Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Software Engineer in Test",
+      "description": "Iris's client, a large Banking company, is currently searching for a strong for SDET Engineer based in Toronto, ON to join their team. Job title: SDET (Python Automation) Location: Hybrid- 4 Days onsite (Toronto, ON) Duration: 24 months Skills: SDET, Automation, Python, etc Job Description: What will you do? Implement and champion best practices in Quality engineering, supporting the implementation of the QE Program and overall QE process and standards through continuous test preparation and ex…",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5503129230?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=062BC761B3D2024CADBDB8AADC2B69519EEEEE19",
+      "id": "5503129230",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Iris Software Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwMzEyOTIzMCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.O0inXlPnXbxPt5yxnqVtjrsLI7Srcj9tM3fEdvoSGZY",
+      "latitude": 43.706102,
+      "created": "2025-11-19T06:49:39Z",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "created": "2025-11-30T10:48:32Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Trois-Rivières, Francheville",
+        "area": [
+          "Canada",
+          "Québec",
+          "Mauricie",
+          "Francheville",
+          "Trois-Rivières"
+        ]
+      },
+      "contract_type": "permanent",
+      "id": "5520158828",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyMDE1ODgyOCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.oifMLNbE3_0hNhuBABZlJqwMAeU58R42vWTjic4cWco",
+      "latitude": 46.358375,
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Robert Half",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": " Programmeur-Analyste SENIOR Lieu : Trois-Rivières, Québec (Présentiel) Type : Temps Plein, Permanent  À Propos de Nous Nous sommes une entreprise de solutions logicielles de premier plan dans le domaine de l' aviation . Nous recherchons un(e) candidat(e) très expérimenté(e) pour rejoindre notre équipe de développement et contribuer à l'amélioration de notre progiciel de gestion interne, une solution essentielle utilisée à tous les niveaux de l'entreprise. Notre logiciel est une solution complè…",
+      "title": "Principal Software Engineer",
+      "longitude": -72.571204,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520158828?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=828A0FA725C3045F93A96CF05B570FBBED27555A",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "company": {
+        "display_name": "Connex Telecommunications Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTMwOTkzNjYzIn0.KktNuainLpaO4l-qo1cWasAv3atpGIdl0wBwtvYXNBk",
+      "latitude": 43.706102,
+      "id": "5530993663",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "created": "2025-12-06T09:57:05Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530993663?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=9E3BBE5DCBEC94AC37467721A3573E53336E6ACC",
+      "longitude": -79.402726,
+      "description": "About Us: Join Connex Telecommunications Inc., a leader in contact center solutions, where innovation meets superior technology. With a team of over 600 professionals across 14 offices in North America, Connex is dedicated to delivering high-quality services to clients worldwide. We are looking for an experienced Senior Full Stack Developer with a strong background in Java, Angular, and AWS Cloud services, ideally with experience in the contact center domain. You’ll help design, develop, and op…",
+      "title": "Java Software Engineer"
+    },
+    {
+      "description": "Job Title : Staff Software Engineer Location : Toronto, Ontario Job Type : Full Time Our Client is seeking a Staff Software Engineer to take ownership of designing and developing complex, multi-platform application systems. This is an exciting opportunity to lead technical architecture, establish best practices, and mentor engineering teams while driving innovation and scalability. What You’ll Do: Collaborate with a dynamic team throughout the Software Development Life Cycle. Act as a tech lead…",
+      "title": "Staff Software Engineer",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369504?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=D7AF185239EB14493DC3D6A28F45D466CF06FEF3",
+      "longitude": -79.402726,
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-07T11:01:41Z",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_time": "full_time",
+      "id": "5532369504",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjM2OTUwNCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.8zsgnuYO5PuODkiHHLu9aXrF-ohcyQVpxax-X24kXO8",
+      "latitude": 43.706102,
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "SoTalent",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "contract_time": "full_time",
+      "id": "5532369428",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTMyMzY5NDI4In0.o0lEohqLT2e1UiPrfAx535Ec9JJ9EP2DOVsRDyLlluI",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Delpath"
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-07T11:01:21Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Software Engineering Manager",
+      "description": "Senior Manager, Software Engineering  North York, Toronto | Hybrid (3 Days Onsite)  Full-Time |  Role: Full Stack (Angular/React Native, Micro-Front End, Cloud, Back-End) About the Role We are on a mission to democratize finance and empower everyday investors through cutting-edge technology. As part of our Brokerage Technology group, you will help shape the future of digital investing by building scalable, high-impact applications used by thousands of customers. We are looking for a strategic, …",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369428?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=A221CBFE77141403718400D777343BF86351D88F"
+    },
+    {
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-14T08:17:45Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDk2MDM2MzAxIn0.xo5M5kP81mOJodBlXi2K1CTm8TmfxyC6DkGPk35YTAw",
+      "latitude": 43.706102,
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Flexton Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5496036301",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5496036301?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=0D01953B1E26FAA3B2B7FF23B0420755C0BBDE7D",
+      "longitude": -79.402726,
+      "title": "Java Software Engineer",
+      "description": "We are seeking a highly skilled and motivated Java Backend Engineer to join our dynamic team. In this role, you will be responsible for building and maintaining scalable, high-performance backend systems. You will work with modern technologies such as Microservices , Spring Boot , and APIs , and collaborate with cross-functional teams to deliver innovative and efficient solutions. This is a hybrid role , offering the flexibility of remote work with occasional in-office collaboration in Sunnyval…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "created": "2025-11-26T06:20:35Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "id": "5514426446",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Wirehead"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNDQyNjQ0NiIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.sskD3FxWIRVjJi_YuCUJdAYIERExhnXigd4ABrAkOl0",
+      "description": "Role: Intermediate Developer Client: Ontario Government Job Type: Contract Term: 4 Months Workplace Type: Hybrid / Onsite Pay Rate: $75.00 Start date: 2-3 weeks Location: Toronto, ON Language: English Clearance: N/A ATS ID : 9862 Requirements: What you'll need Skills, Knowledge, Experience, and Qualifications: Experience and Skill Set Requirements Key Responsibilities Develop and maintain secure, well-tested Java services and REST APIs (Java 11, Spring Boot). Build data-driven features using JP…",
+      "title": "Java Software Engineer",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5514426446?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=50C4BB3B8EDC52C671CA4BB32B8484960358E37F",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTEwOTQzOTAyIn0.eK69JZKdY8My5_al4n4hNlGqRGCfkwJi6CVKmP-wnGU",
+      "latitude": 49.256582,
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Randstad Digital"
+      },
+      "id": "5510943902",
+      "location": {
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-23T20:54:08Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5510943902?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=E1603BE2EF72A1B50A02C1F981D4D6861A5EDA52",
+      "longitude": -122.898456,
+      "description": "Title: Senior Back-End Developer (Java  AWS) Contract: 12 months with a high possibility of extension Location: Donwtown Vancouver, BC Client: Large Retail Company Important note: this role requires to be in the office 5 days a week We’re looking for a highly skilled Senior Back-End Developer to join our team on a 12-month engagement. This role requires deep experience in modern Java development, cloud-native engineering, and large-scale distributed systems. You’ll collaborate with a high-perfo…",
+      "title": "Java Software Engineer"
+    },
+    {
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-03T07:36:53Z",
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyNTY1MjYxOCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.d8Oh9DbLZXjt-xcftz3POWh5ogSXS5BSoWKe1-TS6jE",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Flexton Inc."
+      },
+      "id": "5525652618",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5525652618?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=BA47AC459687C438225C6186067DE01A3254D524",
+      "longitude": -79.402726,
+      "description": "Greetings from Flexton! Hope you are doing great today! One of my clients is looking for Java Developer::T4@ Toronto, Canada please share me your updated resume and desire rate for this position. Job Description: Bachelor's degree in computer science or related field plus 5 years of experience in Java in building large-scale web based distributed systems. Thorough understanding in computer science fundamentals, data structures and algorithms and extensive experience in building highly available…",
+      "title": "Java Software Engineer",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "id": "5493686963",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "VLink Inc"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDkzNjg2OTYzIn0.-929EJntaDwH13ERFP07pTViK6uMbM4nOB_kIP-2vM0",
+      "created": "2025-11-13T07:27:34Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "title": "Senior Software Engineer",
+      "description": "Experience and Skill Set Requirements Siebel Development Skills - 40 % • 10 years of experience with Siebel technical configuration/ design / development / integration • 5 year of experience of Siebel integration with Adobe AEM , J2EE and etc • 5 year of experience with Siebel EIM/EAI. • 3 years of experience with Siebel IP18 with a focus on configuring / developing. • Experience with Assignment Manager, Business Rules, Workflow, Applets, Views, Screens, Code/Scripts and related Siebel Business…",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5493686963?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=446BFF070BC5EC98667F366368641EEF9FDA4D52"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5505040164?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=F15FD1338F5E7930C997B21BDCB08840FB53D00C",
+      "title": "Software Engineer in Test",
+      "description": "About the company: Avenue Code is the leading software consultancy focused on delivering end-to-end development solutions for digital transformation across every vertical. We’re privately held, profitable, and have been on a solid growth trajectory since day one. We care deeply about our clients, our partners, and our people. We prefer the word ‘partner’ over ‘vendor’, and our investment in professional relationships is a reflection of that philosophy. We pride ourselves on our technical acumen…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Mississauga, Peel region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-20T07:21:22Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwNTA0MDE2NCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.-7PUTr-pBVkz592lrvEoX_C-3jHB6rCBYMMJ7Ms8-iw",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avenue Code"
+      },
+      "salary_is_predicted": "0",
+      "id": "5505040164"
+    },
+    {
+      "id": "5519125021",
+      "contract_type": "permanent",
+      "company": {
+        "display_name": "Quarry Consulting",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTE5MTI1MDIxIn0.azt2ik4cH2JJH4knMhwL4eqcTMfPvwN_qyJMXwgb_h0",
+      "created": "2025-11-29T10:05:51Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "title": "Staff Software Engineer with AI",
+      "description": "Title : Staff Software Engineer with AI Location : Remote - able to start 9am EST time Duration : Permanent - Direct hire Requirements : Professional software engineering experience, with a proven ability to design, build, and deploy production-grade systems. Demonstrated experience implementing AI features in SaaS products or enterprise applications. Proven track record of designing and deploying AI-driven applications using LLMs, MCP, RAG pipelines, and orchestration frameworks. Strong backgr…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5519125021?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=649424DC82B45D22B6BACBD9B615820161565616"
+    },
+    {
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5529824749?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=814019DC5E085A2E845441D17295609993170A13",
+      "title": "Senior Java Software Engineer",
+      "description": "Java Developer – (8-10 yrs of relevant experience) Remote across Canada - Pacific Time Zone Annual compensation - CAD 90,000 to CAD 100,000 per year Proficient with Core Java and J2EE technology, and best practices Proficient with Spring boot framework. Proficient with Web Services API development (SOAP and/or REST) Proficient in designing and developing microservices-based applications. This includes understanding the principles of microservices, using tools like Docker and Kubernetes, and man…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTI5ODI0NzQ5In0.Rx27F6Th9zN4hK2lGfV7hfkrmRDkAs98lN2xhvC2_N4",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "HCLTech"
+      },
+      "salary_is_predicted": "0",
+      "id": "5529824749",
+      "location": {
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-05T15:09:50Z"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Senior Software Engineering Manager",
+      "description": "Job Title: Senior Software Engineering Manager Location: Toronto, Ontario Type: Full Time Our Client is seeking a Senior Software Engineering Manager to lead multiple teams in building innovative, scalable solutions that enhance customer experience and reduce risk. This is an exciting opportunity to combine technical expertise with strategic leadership while fostering a culture of innovation, collaboration, and continuous improvement. What You’ll Do: Directly and indirectly lead 2 engineering t…",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369516?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=05D42A0CE127E076CDF95C657F23EAB735CCB4E7",
+      "contract_time": "full_time",
+      "id": "5532369516",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjM2OTUxNiIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.28yUioSuglfawg15HUKvz2zcvdaJzft7gtc5b4ghuFs",
+      "latitude": 43.706102,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SoTalent"
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-07T11:01:42Z",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5491821597?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=B74882A82795ADAA9BB302B5808DCB149C3FD308",
+      "title": "Senior Software Engineer - GCP",
+      "description": "Senior Software Engineer - GCP Developer - Equity Partner - Location: Remote (United States/Canada) Commitment: Minimum 20 hrs/week Anime Universe is an early stage startup in the building and fundraising phase. Compensation: No upfront cash \"Sweat Equity\": Equity (shares)  future token-based rewards (pending legal clearance) Salary unlocked by revenue milestones Remote-first, async-native, autonomy-rich team What You Put In Is What You Get Out At Anime Universe , infrastructure is not a suppor…",
+      "company": {
+        "display_name": "Anime Universe",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5MTgyMTU5NyIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.Sa9XjjJPcab7NMPqcl7ghttQyAngmmknhLEOi6_5-mI",
+      "id": "5491821597",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "created": "2025-11-12T07:06:34Z"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5507500234?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=1D602A8799B8636D57D1FD7B79B11C7F8263B897",
+      "longitude": -79.402726,
+      "title": "Senior Java Software Engineer",
+      "description": "Iris's Fortune 100 direct client is looking for Senior Full Stack Developer. Please find below Job description and share me your updated resume at Saurav.upadhyay@irissoftware.com . Position: Senior Full Stack Developer Location: Toronto ON Skills: Java, Spring boot, Microservices, SQL, UI Key Responsibilities: Design and develop responsive, user-friendly web interfaces using modern JavaScript frameworks such as Angular or React, along with HTML5 and CSS3. Integrate frontend components with Jav…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwNzUwMDIzNCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.CmTA2fC2ZyCLo6ZCPjad82yMM1TXHdWQGJR71j2Hk1g",
+      "latitude": 43.706102,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Iris Software Inc."
+      },
+      "salary_is_predicted": "0",
+      "id": "5507500234",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-21T08:16:21Z"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Sr. Software Engineer, .NET",
+      "description": "Join a high-performing team where your expertise in .NET , SQL , and React will directly shape mission-critical applications and drive innovation in a secure, fast-paced environment. Your work will influence key business outcomes and deliver solutions that scale. Key Responsibilities Design, develop, and maintain .NET applications with a focus on performance and scalability Build and optimize SQL databases , including stored procedures and query tuning Develop front-end components using React ,…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5516058212?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=06567B16CE75CCE724B3B8FE723F50E03D7565A4",
+      "longitude": -79.402726,
+      "id": "5516058212",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Confidential"
+      },
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTE2MDU4MjEyIn0.ErF2ESXYsDMlzR_HPn-fJvrA3jr9WcPPP9GL_7xLEMw",
+      "created": "2025-11-27T07:29:51Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5517708978?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=E9A7376B89FC8963892A448FD26D095C4C47E887",
+      "longitude": -122.898456,
+      "description": "At TekRek, we have partnered with a fast growing AI company transforming how revenue teams operate. Their platform analyzes every sales and customer interaction, extracts critical insights, and automates next steps directly in CRM systems. They are looking for a Senior Platform Engineer who will design and scale the cloud infrastructure that powers these intelligent systems. This role offers the opportunity to influence platform strategy, mentor engineers, and build the foundation for high velo…",
+      "title": "Senior Software Engineer (Platform)",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "display_name": "Greater Vancouver, British Columbia",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-28T08:59:09Z",
+      "latitude": 49.256582,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNzcwODk3OCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.7riJHCQrWk_yMh6r8G304XG3mecmaNQb0L1NZqc2h9g",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "TekRek",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5517708978"
+    },
+    {
+      "created": "2025-11-22T08:46:38Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ]
+      },
+      "id": "5509062238",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "GlobalSource IT"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwOTA2MjIzOCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.gXIfJAQW4-KRTkQ_bvfxOWIBZUvg04Z4u_Wntrl1pyQ",
+      "latitude": 49.256582,
+      "title": "Software Engineer - Java & Legacy Systems with Advanced MSSQL",
+      "description": "Software Engineer - Java & Legacy Systems with Advanced MSSQL Full-time | Remote | British Columbia, Vancouver Job Summary Our client is seeking a full-stack developer with strong Java and SQL expertise and solid experience supporting legacy applications. This role spans the full development lifecycle - architecture, coding, testing, release management, and maintenance - while also contributing to modernization efforts across multiple systems. Responsibilities Develop, test, and document applic…",
+      "longitude": -122.898456,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5509062238?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=136B1E672FC2E5B8577CAC56CF671221400B3BBD",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5517044408?utm_medium=api&utm_source=542c51d7",
+      "description": "Amazing Career Moments Happen Here Transforming the insurance industry is ambitious, we know. That’s why at Applied, we’re building a team that shows up every day ready to learn, willing to try new things, and driven to deliver innovative software and services that make us indispensable to our customers – all within a culture built on values that make us indispensable to each other too. With 40 years of experience in the Insurtech game, we’re not just redefining what’s achievable; we’re creatin…",
+      "title": "Software Engineer / Sr Software Engineer",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "created": "2025-11-27T18:00:37Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNzA0NDQwOCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.yBfqJ4Micogkb3UjysFRk-0pDc9MXpHeM794CGyesHc",
+      "company": {
+        "display_name": "Applied Systems, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "id": "5517044408"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5517044366?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer / Sr Software Engineer",
+      "description": "Amazing Career Moments Happen Here Transforming the insurance industry is ambitious, we know. That’s why at Applied, we’re building a team that shows up every day ready to learn, willing to try new things, and driven to deliver innovative software and services that make us indispensable to our customers – all within a culture built on values that make us indispensable to each other too. With 40 years of experience in the insurtech game, we’re not just redefining what’s achievable, we’re creatin…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "created": "2025-11-27T18:00:37Z",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Applied Systems, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNzA0NDM2NiIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.0KF5tTXGNbKIxxbFldG-8MA9no0_Q7jRHeZcQxJyjg4",
+      "id": "5517044366",
+      "contract_time": "full_time"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/details/5434347149?utm_medium=api&utm_source=542c51d7",
+      "description": "Liferaft is looking for a highly skilled and visionary Software Engineer to contribute to the development of advanced OSINT tools that empower organizations to extract valuable insights from open-source data. This role will be hybrid in Halifax, NS, or fully remote within Canada. Reporting to the Senior Director, Engineering, you will play a crucial role in building and enhancing our OSINT platform, working on scalable, high-performance applications that handle large-scale data collection and a…",
+      "title": "Software Engineer",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Liferaft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDM0MzQ3MTQ5In0.7_j3GbLiUQ9-59QWNgkJWHik-EFB0cLU1djtl2-HUAI",
+      "latitude": 43.706102,
+      "id": "5434347149",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-10-06T15:27:13Z"
+    },
+    {
+      "location": {
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal"
+        ],
+        "display_name": "Montréal, Québec",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-10-06T15:27:14Z",
+      "company": {
+        "display_name": "Liferaft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 45.544959,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDM0MzQ3MTY2In0.DwEFozmSecnWduI_2McEcUgaPteLbhQOXb32o0xlHU4",
+      "id": "5434347166",
+      "contract_time": "full_time",
+      "longitude": -73.588138,
+      "redirect_url": "https://www.adzuna.ca/details/5434347166?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer",
+      "description": "Liferaft is looking for a highly skilled and visionary Software Engineer to contribute to the development of advanced OSINT tools that empower organizations to extract valuable insights from open-source data. This role will be hybrid in Halifax, NS, or fully remote within Canada. Reporting to the Senior Director, Engineering, you will play a crucial role in building and enhancing our OSINT platform, working on scalable, high-performance applications that handle large-scale data collection and a…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5434347150?utm_medium=api&utm_source=542c51d7",
+      "longitude": -64.80534,
+      "title": "Software Engineer",
+      "description": "Liferaft is looking for a highly skilled and visionary Software Engineer to contribute to the development of advanced OSINT tools that empower organizations to extract valuable insights from open-source data. This role will be hybrid in Halifax, NS, or fully remote within Canada. Reporting to the Senior Director, Engineering, you will play a crucial role in building and enhancing our OSINT platform, working on scalable, high-performance applications that handle large-scale data collection and a…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "New Brunswick",
+          "Westmorland",
+          "Moncton"
+        ],
+        "display_name": "Moncton, Westmorland"
+      },
+      "created": "2025-10-06T15:27:13Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Liferaft"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 46.104675,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQzNDM0NzE1MCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.F5SjCJrYFncjrXplAk6IOwk1dBPsINNmCVgb58bOOWA",
+      "id": "5434347150",
+      "contract_time": "full_time"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5434347160?utm_medium=api&utm_source=542c51d7",
+      "longitude": -63.556363,
+      "description": "Liferaft is looking for a highly skilled and visionary Software Engineer to contribute to the development of advanced OSINT tools that empower organizations to extract valuable insights from open-source data. This role will be hybrid in Halifax, NS, or fully remote within Canada. Reporting to the Senior Director, Engineering, you will play a crucial role in building and enhancing our OSINT platform, working on scalable, high-performance applications that handle large-scale data collection and a…",
+      "title": "Software Engineer",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Liferaft"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDM0MzQ3MTYwIn0.BOqIesuJX8uHIzM7I_iF74kfOaRLre1ReCvRP74iTL4",
+      "latitude": 44.681555,
+      "id": "5434347160",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Canada",
+          "Nova Scotia",
+          "Halifax region"
+        ],
+        "display_name": "Halifax region, Nova Scotia",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-10-06T15:27:14Z"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Rockstar"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDQxNjc2OTYyIn0.hhQpWzn1iaivR_9jJUJkCSv5I0kmlaNEirDK3cJSh6c",
+      "latitude": 43.706102,
+      "id": "5441676962",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-10-10T16:12:27Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5441676962?utm_medium=api&utm_source=542c51d7",
+      "longitude": -79.402726,
+      "description": "Rockstar is recruiting for an early-stage, well-funded startup that is transforming how enterprise accounting teams manage the month-end close process. The founding team brings deep experience from both finance and engineering, having overseen finance organizations at leading tech companies and built month-end close systems at major enterprises. The company is backed by top-tier investors and finance leaders from some of the most innovative organizations in the industry. About the Company This …",
+      "title": "Software Engineer"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTI4NTY1MTEzIn0.si8VDPZlSm9R8SiLHmSoieJo2x9V5ihStTrVNReUysQ",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Akamai Technologies, Inc."
+      },
+      "salary_is_predicted": "0",
+      "id": "5528565113",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-04T17:58:04Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5528565113?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=2980659BE2F5CB6DC3CCC4F6D6EA7F5EC43E5F79",
+      "description": "Are you a software developer who loves solving problems? Would making an impact on the digital experiences of millions of users excite you? Join our Control Center Web Team Our Edge Experience Team is a group of dedicated professionals shaping Akamai's aspirations to create an industry-leading user experience. We take ownership for the design and development for core interfaces, applications, APIs and services. We create an experience that allows customers and internal stakeholders to build sof…",
+      "title": "Software Engineer"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMTg0NTU0MyIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.lYUIW7AEmNpKr8Z3wECFFSyTJIvjX817N2fflu3M2vA",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Akamai Technologies, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5531845543",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "created": "2025-12-06T18:05:44Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5531845543?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=C11B435B83B4CFD966FEA2DFA5AD374B877C7539",
+      "title": "Software Engineer",
+      "description": "Would you like the opportunity to solve technical challenges? Are you excited about working with cutting-edge technologies? Join our team Our Edge Platform division designs, develops, and operates technology that helps our customers improve their Web and Media content delivery. Leveraging our deployment of servers around the world, we can uniquely solve technology problems with innovative solutions. Make a difference to a vital part of our business As a Software Engineer at Akamai, you'll be re…"
+    },
+    {
+      "created": "2025-10-28T19:44:01Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "id": "5468696353",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ2ODY5NjM1MyIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.eUnCDy1D3Ax2o4s3u0tC77TeykwMz9y5lROZko4ey3g",
+      "company": {
+        "display_name": "Broadcom",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "description": "Please Note: 1. If you are a first time user, please create your candidate login account before you apply for a job. (Click Sign In > Create Account) 2. If you already have a Candidate Account, please Sign-In before you apply. Job Description: As a Principal Software Engineer, you will design, develop, and deliver Control Software and or Firmware for Ultra High-performance electronic products. In addition, you may provide technical leadership to a small multi-faceted design team. We are looking…",
+      "title": "Software Engineer",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5468696353?se=0O8vf43U8BGp6p-GxOTy2g&utm_medium=api&utm_source=542c51d7&v=97F39603A9CC73A658FC79F78D1A52A1A10A54A5",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Job Offer: Software Engineer Location: Toronto Contract Duration: 6 months Work Mode: Hybrid Start Date: ASAP Why Join Us? The company is a global leader in technology consulting. With 9,600 experts worldwide, we guide our clients through digital transformation by developing innovative solutions. In Canada, we excel in IT and engineering. We collaborate with leading companies to tackle major technological challenges, putting innovation, collaboration, and excellence at the heart of our actions.…",
+      "redirect_url": "https://www.adzuna.ca/details/5105916778?utm_medium=api&utm_source=542c51d7",
+      "longitude": -81.248057,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "created": "2025-03-22T04:36:58Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Middlesex",
+          "London"
+        ],
+        "display_name": "London, Middlesex"
+      },
+      "id": "5105916778",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Workhoppers",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 42.981065,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1MTA1OTE2Nzc4In0.KvEjH1KBc5jQa6H-oZZxvhuqFHlXMfu2ryNfXHl1_c0"
+    },
+    {
+      "created": "2024-09-20T08:25:11Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Victoria-Fraserview, Vancouver",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver",
+          "Vancouver",
+          "Victoria-Fraserview"
+        ]
+      },
+      "id": "4870533732",
+      "contract_time": "full_time",
+      "longitude": -123.07359,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Applied Biological Materials Inc"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 49.18642,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI0ODcwNTMzNzMyIn0.NKD_IJ7Mow1ei-ncIC5faTyaeHgUbYwZNNBNFJZmWiw",
+      "salary_min": 83200,
+      "title": "Software Engineer",
+      "description": "Responsibilities and duties: Build, design, develop and maintain complex, scalable applications and deliver robust computer-based system solutions, including mobile applications. Collaborate within development team to design, develop, test, implement, and support technical solutions in full-stack development tools and technologies. Research, design, develop, and modify enterprise-wide systems and application software. Design, develop and maintain data platform components that power the Telemetr…",
+      "redirect_url": "https://www.adzuna.ca/details/4870533732?utm_medium=api&utm_source=542c51d7",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_max": 114400
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5514037203?utm_medium=api&utm_source=542c51d7",
+      "longitude": -122.898456,
+      "description": " Collect and document users requirements and develop logical and physical specifications  Research, evaluate and synthesize technical information to design, develop and test the digital platform  Develop data, process and network models to optimize architecture and to evaluate the performance and reliability of designs  Plan, design and coordinate the development, installation, integration and operation of the platform  Assess, test, troubleshoot, document, upgrade and develop maintenance…",
+      "title": "Software Engineer Job",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-25T19:37:50Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "TREND PRODUCTIVITY CENTERS CORP."
+      },
+      "salary_is_predicted": "0",
+      "latitude": 49.256582,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTE0MDM3MjAzIn0.CysnxNrmO3P-v1k13XNvv9E54qvWcyDhlKed9DHCI6c",
+      "id": "5514037203"
+    },
+    {
+      "location": {
+        "display_name": "Burnaby, Greater Vancouver",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver",
+          "Burnaby"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-09-23T05:52:41Z",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "Nexthop Systems Inc",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NDExOTc2Mzg3In0.cui_FOL1enq7W7IjZ1RWdjSVVwQpeKQXYmmcIUwR6tA",
+      "latitude": 49.246112,
+      "id": "5411976387",
+      "contract_time": "full_time",
+      "longitude": -122.976173,
+      "redirect_url": "https://www.adzuna.ca/details/5411976387?utm_medium=api&utm_source=542c51d7",
+      "description": "Company Description : As an AI infrastructure startup, we are developing innovative systems to enable large-scale AI deployments. Our team comprises industry veterans who are passionate about building the sophisticated systems that support the next generation of computing in a fast-paced startup environment. Job Responsibilities: Participate in all parts of software engineering, ranging from design and implementation of software solutions to testing and peer review Collaborate with engineers on…",
+      "title": "Software Engineer",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "longitude": -122.898456,
+      "redirect_url": "https://www.adzuna.ca/details/5525091670?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer Job",
+      "description": "Design, write, read, test, and correct code for new software Write documentation for new and updated software Design solutions to projects based on business requirements and specifications Utilize best practices to continually improve software solutions Job Requirements: A bachelor's degree in computer science, computer systems engineering, software engineering Strong proficiency with firmware design, development, validation, and documentation Proficient working knowledge of SQL, Java and Pytho…",
+      "salary_is_predicted": "0",
+      "company": {
+        "display_name": "ACCOUNTA BUSINESS SOFTWARE INC.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTI1MDkxNjcwIn0.wjtJgfsRhjWfs7YWWm_Se1SIwCNDXniH-qm4gtMn6aw",
+      "latitude": 49.256582,
+      "id": "5525091670",
+      "location": {
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-02T19:40:50Z"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Brinqa is the leading provider of unified cyber risk management and security analytics. Our software empowers companies to make cyber risk decisions across a wide range of platforms quickly and efficiently. We help our customers’ cyber security and technology teams discover, prioritize and treat the most important risks based on real-time risk analytics, automated risk assessments, and remediation. With actionable insights and timely communications provided by our software, our customers are re…",
+      "title": "Software Engineer",
+      "redirect_url": "https://www.adzuna.ca/details/5417183248?utm_medium=api&utm_source=542c51d7",
+      "id": "5417183248",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Brinqa"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzE4MzI0OCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.lfF7qO4XJjnPchiPJA5uvPxvIkfFbO5DBuncSrFJ4KA",
+      "created": "2025-09-27T06:03:16Z",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "longitude": -63.66989,
+      "redirect_url": "https://www.adzuna.ca/details/5500617159?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer",
+      "description": "Discover The Opportunity As a Software Engineer at Bluedrop, you will be a member of the team responsible for developing and maintaining advanced VR and MR simulation software for training systems throughout the product evolution including software development, integration support and in-service engineering support. You will work closely with the other functional teams (3D modeling, System Integration, and Assembly) to build crew-based mission training devices using leading edge technology. Wha…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Beechville, Halifax region",
+        "area": [
+          "Canada",
+          "Nova Scotia",
+          "Halifax region",
+          "Beechville"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-17T12:40:15Z",
+      "latitude": 44.6558,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwMDYxNzE1OSIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.G4c6VJNKd3I73rfIFsMqbuBTVfV7yq98BV5kU5t_iO4",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bluedrop Training & Simulation"
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "contract_type": "contract",
+      "id": "5500617159"
+    },
+    {
+      "description": "Annapolis Junction MD Clearance: TS/SCI FSP SWE-2 Required Experience: ◦ Using the Linux CLI and Linux tools ◦ Developing Bash / Python scripts to automate manual processes ◦ Automation frameworks including Ansible for orchestrating deployment ◦ Troubleshooting and debugging issues in an operational system ◦ CI/CD principles, methodologies, and tools such as GitLab CI and Jenkins ◦ Git Source Control System Position Desired Skills ◦ Datacenter Infrastructure Management (DCIM) tools such as Netb…",
+      "title": "Software Engineer",
+      "redirect_url": "https://www.adzuna.ca/details/5518662662?utm_medium=api&utm_source=542c51d7",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-28T19:14:55Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "id": "5518662662",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTE4NjYyNjYyIn0.dzw7z3qebOUlv4OZUG7jwR8zVYQG_4OSLEqLa44VgVA",
+      "company": {
+        "display_name": "KMJJ Enterprise, LLC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0"
+    },
+    {
+      "id": "5533354676",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LifeRaft"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTMzMzU0Njc2In0.L_OHFFuGVSR6egJS0oXKebLvk5u9FCg0eXEuy1FUnp4",
+      "created": "2025-12-08T05:56:29Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Job Description Job Description Liferaft is looking for a highly skilled and visionary Software Engineer to contribute to the development of advanced OSINT tools that empower organizations to extract valuable insights from open-source data. This role will be hybrid in Halifax, NS, or fully remote within Canada. Reporting to the Senior Director, Engineering, you will play a crucial role in building and enhancing our OSINT platform, working on scalable, high-performance applications that handle l…",
+      "title": "Software Engineer",
+      "redirect_url": "https://www.adzuna.ca/details/5533354676?utm_medium=api&utm_source=542c51d7"
+    },
+    {
+      "longitude": -73.480282,
+      "redirect_url": "https://www.adzuna.ca/details/5363400068?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer",
+      "description": "Aviya Aerospace Systems is a leader in engineering services and solutions for mission critical Aerospace and Defense applications. Aviya provides expertise in program management, systems, software, mechanical, and hardware engineering to many of the top-tier Aerospace and Defense Contractors. We have an immediate opening for a Software Developer to join our engineering group in Longueuil, Quebec. *Applicants are kindly asked to include an English resume as part of their application for this pos…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "display_name": "Longueuil, Champlain",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montérégie",
+          "Champlain",
+          "Longueuil"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-08-22T05:53:24Z",
+      "company": {
+        "display_name": "Aviya Aerospace Systems",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "latitude": 45.531116,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTM2MzQwMDA2OCIsInMiOiIwTzh2ZjQzVThCR3A2cC1HeE9UeTJnIn0.HfZZu3ZEg5aM-9ULM6L98C7at1oQOTtkMiEaLnEdmII",
+      "id": "5363400068",
+      "contract_time": "full_time"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Osedea"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTA5MjM5NDc4In0.Vm53DPIzl6OrDRlZDvRrmR-nGZyz9H_XRtwKGSvxxHA",
+      "id": "5509239478",
+      "contract_time": "full_time",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "created": "2025-11-22T12:03:27Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5509239478?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer",
+      "description": "Who we are We’re a thriving and agile tech development firm. People are at the center of everything we do. Simply put, we care. Our team personally cares about our clients and the world around them, and we care about our team’s life-long dreams, aspirations, and career development. We strongly believe in the power of community. This is why we seek opportunities to build meaningful relationships with everyone around us. We celebrate diversity in all its forms. Backgrounds, personalities, career …"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -122.898456,
+      "redirect_url": "https://www.adzuna.ca/details/5034265414?utm_medium=api&utm_source=542c51d7",
+      "description": "Job Description About Us: Our client is a leading player in the software industry, driving innovation and delivering cutting-edge solutions. We are seeking a skilled software engineer to join our team. Key Responsibilities: Implement, maintain and evolve cloud-based products and services Working on integration with external customer and 3rd party systems Write world-class code, perform code reviews, refactor and optimize the code, write unit tests Continuously discover, evaluate, and implement …",
+      "title": "Software Engineer",
+      "salary_min": 6090,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1MDM0MjY1NDE0In0.PAT8bpqprYuYRi7RRoheS6v6iyANQLoYlkX2ulqViBM",
+      "latitude": 49.256582,
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Alquemy"
+      },
+      "contract_type": "contract",
+      "id": "5034265414",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "display_name": "Greater Vancouver, British Columbia"
+      },
+      "created": "2025-02-02T06:01:47Z"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5034262817?utm_medium=api&utm_source=542c51d7",
+      "longitude": -79.402726,
+      "title": "Software Engineer",
+      "description": "Job Description About Us: Our client is a leading player in the software industry, driving innovation and delivering cutting-edge solutions. We are seeking a skilled software engineer to join our team. Key Responsibilities: Implement, maintain and evolve cloud-based products and services Working on integration with external customer and 3rd party systems Write world-class code, perform code reviews, refactor and optimize the code, write unit tests Continuously discover, evaluate, and implement …",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-02-02T05:57:07Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1MDM0MjYyODE3In0.y9jPK1FpGWn0NQAjCzABdyGjFnvx_hBcQvmw53avZKo",
+      "latitude": 43.706102,
+      "company": {
+        "display_name": "Alquemy",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "0",
+      "contract_type": "contract",
+      "id": "5034262817"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Akamai"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiME84dmY0M1U4QkdwNnAtR3hPVHkyZyIsImkiOiI1NTI5MzE4ODk5In0.LlhnwMt7PmRqhDJttQ2iGLTiAmJ5NoCjsiankBBkN6s",
+      "id": "5529318899",
+      "contract_time": "full_time",
+      "contract_type": "permanent",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-05T12:06:39Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5529318899?utm_medium=api&utm_source=542c51d7",
+      "title": "Software Engineer",
+      "description": "Description Are you a software developer who loves solving problems? Would making an impact on the digital experiences of millions of users excite you? Join our Control Center Web Team! Our Edge Experience Team is a group of dedicated professionals shaping Akamai's aspirations to create an industry-leading user experience. We take ownership for the design and development for core interfaces, applications, APIs and services. We create an experience that allows customers and internal stakeholders…"
+    }
+  ]
+}
