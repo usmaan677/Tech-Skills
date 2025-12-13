@@ -41,29 +41,62 @@ def save_raw_results(data, search_term):
     return filename
     
 
+SKILL_KEYWORDS = {
+    "python": ["python", "py"],
+    "java": ["java"],
+    "javascript": ["javascript", "js", "ecmascript"],
+    "typescript": ["typescript", "ts"],
+    "c++": ["c++", "cpp"],
+    "c#": ["c#", "c-sharp", "c sharp"],
+    "go": ["go", "golang"],
+    "rust": ["rust"],
+
+    "react": ["react", "reactjs", "react.js"],
+    "angular": ["angular", "angularjs", "angular.js"],
+    "vue": ["vue", "vuejs", "vue.js"],
+    "node": ["node", "nodejs", "node.js"],
+    "express": ["express", "expressjs", "express.js"],
+    "spring": ["spring", "springboot", "spring boot"],
+    "django": ["django"],
+    "flask": ["flask"],
+
+    "sql": ["sql"],
+    "postgres": ["postgres", "postgresql", "psql"],
+    "mysql": ["mysql"],
+    "mongodb": ["mongodb", "mongo"],
+    "redis": ["redis"],
+
+    "aws": ["aws", "amazon web services"],
+    "azure": ["azure", "microsoft azure"],
+    "gcp": ["gcp", "google cloud", "google cloud platform"],
+    "docker": ["docker"],
+    "kubernetes": ["kubernetes", "k8s"],
+
+    "spa": ["spa", "single page application"],
+    "microservices": ["microservices", "microservice"],
+    "rest": ["rest", "restful", "rest api"],
+    "graphql": ["graphql", "graph ql"],
+
+    "pandas": ["pandas"],
+    "numpy": ["numpy", "np"],
+    "pyspark": ["pyspark"],
+    "spark": ["spark", "apache spark"],
+    "hadoop": ["hadoop", "apache hadoop"],
+}
 
 
-SKILLS = [
-    "python", "java", "javascript", "typescript", "c++", "c#", "go", "rust",
-    "react", "angular", "vue", "node", "express", "spring", "django", "flask",
-    "sql", "postgres", "mysql", "mongodb", "redis",
-    "aws", "azure", "gcp", "docker", "kubernetes",
-    "spa", "microservices", "rest", "graphql",
-    "pandas", "numpy", "pyspark", "spark", "hadoop",
-]
-
-def extract_skills_from_description(description, skills= SKILLS):
+def extract_skills_from_description(description, skills= SKILL_KEYWORDS):
     if not description:
         return[]
     
     text = description.lower()
     found = set()
 
-    for skill in skills:
-        s = skill.lower()
-        if s in text:
-            found.add(skill)
-
+    for skill, variants in skills.items():
+        for v in variants:
+            if v in text:
+                found.add(skill)
+                break
     return sorted(found)
 
 def normalize_job(raw_job):
