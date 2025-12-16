@@ -1,0 +1,1536 @@
+{
+  "count": 74,
+  "results": [
+    {
+      "description": "Job Description Job Description We are seeking a skilled and dedicated intern to join our Engineering team. As a software engineering intern at Epistemix, you show a clear passion for quality and love to bring software to life. You are energized by the idea of building something new and want to work on problems that matter. In order to do this job well, you must be a curious and eager problem solver with a hunger for building well-designed, high-quality solutions. You have a passion for great w…",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Epistemix"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5537581321?utm_medium=api&utm_source=542c51d7",
+      "id": "5537581321",
+      "title": "Software Engineering Intern",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-11T01:59:25Z",
+      "location": {
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNzU4MTMyMSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.Ho6cWcxP2AyfaNy8_TczOd4eKJoFWRCN4pgcfUooAJw"
+    },
+    {
+      "created": "2025-11-08T05:37:10Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDg2ODgwNTc3In0.rxdi3NSlSU3_Wr2yaXO9kgFz0VIcZoGr78cV-2Y-6Ag",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Software Engineering Intern",
+      "id": "5486880577",
+      "redirect_url": "https://www.adzuna.ca/details/5486880577?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Trimble",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_type": "contract",
+      "description": "Your Title: Software Engineering Intern Job Location: Richmond Hill, ON Our Department: Applanix Timing: 12-16 Months, Starting May 2026 About Trimble’s Internship Program As a Trimble intern, you will gain valuable hands-on experience, and be provided with challenging, meaningful tasks that will give you insight into what it's like working full-time as a valued member of a team. Our internships are designed to prepare you for your career journey while growing as a professional through lunch an…"
+    },
+    {
+      "longitude": -79.402726,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Stripe"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5382733556?utm_medium=api&utm_source=542c51d7",
+      "description": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important …",
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-09-04T06:01:15Z",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1MzgyNzMzNTU2In0.u0aQjd4ihe4u53O5CKPo3aVkyUYE_UBCQ5sSjA6tyQI",
+      "id": "5382733556",
+      "latitude": 43.706102,
+      "title": "Software Engineer, Intern"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "id": "5519632456",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-29T14:07:40Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxOTYzMjQ1NiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.M8XRz20oCWhU4O89ou6wyDm4zlqeeDjR7tYtQ1fzXQg",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "About GPTZero GPTZero is on a mission to restore trust and transparency on the internet. As the leading AI detection platform, we empower educators, students, journalists, marketers, and writers to navigate the evolving landscape of AI-generated content. With millions of users and institutions relying on us, we’re building a category-defining company at the intersection of AI and information integrity. Our team comes from high-performing engineering cultures, including Uber, Meta, Perplexity, A…",
+      "redirect_url": "https://www.adzuna.ca/details/5519632456?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "GPTZero",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "description": "We're seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, learn development standard methodologies, and gain practical software engineering experience. Software engineering interns are fully integrated into software engineering teams across our Product and Technology organization. Interns spend their summer pushing production-level code to make lasting contributions across MongoDB's products and services for our internal teams, external custo…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5449211185?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=DF1F0E686569DAF6D7242F5DC5BAFEC3A9D02567",
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "MongoDB",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "title": "2026 - Software Engineering Intern, Toronto",
+      "id": "5449211185",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-15T19:34:03Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ0OTIxMTE4NSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.lpBxX2-ySWPP47kLVPxQLVZ-zzIi93DY_14d-Z4EEzw",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      }
+    },
+    {
+      "title": "2026 - Software Engineering Intern, Toronto",
+      "latitude": 43.706102,
+      "id": "5451825951",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ1MTgyNTk1MSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.HkBXdFLZymNR5F6apFqx7HwRNRiIU1i9V5zZ-tVL1X0",
+      "created": "2025-10-17T05:36:12Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "description": "We’re seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, learn development standard methodologies, and gain practical software engineering experience. Software engineering interns are fully integrated into software engineering teams across our Product and Technology organization. Interns spend their summer pushing production-level code to make lasting contributions across MongoDB’s products and services for our internal teams, external custo…",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5451825951?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "MongoDB",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "salary_min": 61000,
+      "contract_type": "contract",
+      "longitude": -79.402726,
+      "contract_time": "full_time",
+      "id": "5449936884",
+      "latitude": 43.706102,
+      "title": "2026, Software Engineering Intern, Toronto",
+      "created": "2025-10-16T05:23:53Z",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "We’re seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, learn development standard methodologies, and gain practical software engineering experience. Software engineering interns are fully integrated into software engineering teams across our Product and Technology organization. Interns spend their summer pushing production-level code to make lasting contributions across MongoDB’s products and services for our internal teams, external custo…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MDB General Referrals"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5449936884?utm_medium=api&utm_source=542c51d7",
+      "salary_max": 85000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ0OTkzNjg4NCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.aCMPcV0ZGscz1M60EVhfl8IMELwDvPIdcWvBP6W0_fI",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwMzc2NjE2NyIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.z4mHyx60UKZK4sIvmwDiO79OWgidPSC63W77mZ28rfQ",
+      "created": "2025-11-19T14:01:02Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "2026 Toronto Software Engineering Internship",
+      "latitude": 43.706102,
+      "id": "5503766167",
+      "redirect_url": "https://www.adzuna.ca/details/5503766167?utm_medium=api&utm_source=542c51d7",
+      "longitude": -79.402726,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "The Trade Desk"
+      },
+      "description": "The Trade Desk is a global technology company with a mission to create a better, more open internet for everyone through principled, intelligent advertising. Handling over 1 trillion queries per day, our platform operates at an unprecedented scale. We have also built something even stronger and more valuable: an award-winning culture based on trust, ownership, empathy, and collaboration. We value the unique experiences and perspectives that each person brings to The Trade Desk, and we are commi…"
+    },
+    {
+      "id": "5393994708",
+      "title": "Software Engineer Intern (Winter 2026)",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1MzkzOTk0NzA4In0.oUAYxxnYOas1wqF7X1erQ8e_HiMCRbVn0va5RmQ0Xaw",
+      "created": "2025-09-11T06:06:52Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic search, RAG, and agents. We believe that our work is instrumental to the widespread adoption of AI. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers…",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Cohere",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5393994708?utm_medium=api&utm_source=542c51d7"
+    },
+    {
+      "salary_min": 40000,
+      "contract_type": "contract",
+      "longitude": -122.898456,
+      "contract_time": "full_time",
+      "id": "5537276304",
+      "latitude": 49.256582,
+      "title": "Backend Software Engineer Internship Winter 2026",
+      "created": "2025-12-10T21:14:53Z",
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "description": "DataVisor is the world’s leading AI-powered Fraud and Risk Platform that delivers the best overall detection coverage in the industry. With an open SaaS platform that supports easy consolidation and enrichment of any data, DataVisor's solution scales infinitely and enables organizations to act on fast-evolving fraud and money laundering activities in real time. Its patented unsupervised machine learning technology, advanced device intelligence, powerful decision engine, and investigation tools …",
+      "company": {
+        "display_name": "DataVisor",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5537276304?utm_medium=api&utm_source=542c51d7",
+      "salary_max": 50000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNzI3NjMwNCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.X65L7G6JpxJz7kNAT94prLPzsk5JkGBpo258jB8XKaM"
+    },
+    {
+      "created": "2025-09-05T06:02:29Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "display_name": "Granville Island, Vancouver",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver",
+          "Vancouver",
+          "Granville Island"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1Mzg0NjQ5NzQzIn0.vZPyAZegRCSxolKahsaqSLHeR_JGOeNC-jYp7sdHoJk",
+      "id": "5384649743",
+      "latitude": 49.270622,
+      "title": "[Summer 2026 Canada] Software Engineer Intern",
+      "longitude": -123.134741,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Roblox"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5384649743?utm_medium=api&utm_source=542c51d7",
+      "description": "As a Software Engineer Intern on our Rendering & Graphics team, you will be mentored by industry veterans from the video game and real-time simulation sectors. Over 12 weeks, we will provide you with a project tailored to your interests and our needs, focusing on your personal and professional development while you contribute to the core technology that powers millions of immersive experiences. You Will: Join our supportive Rendering & Graphics team, collaborating directly with and receiving me…",
+      "contract_type": "contract"
+    },
+    {
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQzNjk5NTkyOCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.4Yo4X_XvvRvNJbB3xL6j8VSppfBbjCHLBfWbltdumB4",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-08T05:20:12Z",
+      "id": "5436995928",
+      "title": "Software Engineer, Intern (Summer 2026) - Toronto",
+      "latitude": 43.706102,
+      "longitude": -79.402726,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "DoorDash Canada"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5436995928?utm_medium=api&utm_source=542c51d7",
+      "description": "About the Team DoorDash is building the world’s most reliable on-demand logistics engine for delivery! We’re looking for experienced engineers to join our fast-growing engineering team to help us develop a 24x7 global infrastructure system that powers DoorDash’s three-sided marketplace of consumers, merchants, and dashers. About the Role At DoorDash, our product engineers implement and operate technological solutions to improve the experiences of our merchants, dashers, and consumers. From crea…",
+      "contract_type": "contract"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-09-04T17:43:33Z",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTM4MzkyNTY1NSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.NYrXh2ifhgywxnIjnqvTEXxqtDzVOYjJ6wvEFSriwrA",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "title": "Software Engineer Intern, 2026 Summer Canada",
+      "id": "5383925655",
+      "redirect_url": "https://www.adzuna.ca/details/5383925655?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Atlassian",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_type": "contract",
+      "description": "Working at Atlassian Atlassians can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Interviews and onboarding are conducted virtually, a part of being a distributed-first company. Your Future Org Atlassian’s Intern program combines hands-on technical training, professional growth opportun…"
+    },
+    {
+      "latitude": 43.706102,
+      "title": "Software Engineer Internship - iOS (Hybrid, Toronto)",
+      "id": "5525920212",
+      "created": "2025-12-03T12:10:01Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTI1OTIwMjEyIn0.b8wzIgaFcyYNxEqkq_7yDOdox7oOU7TXOpf_wSD8btE",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_type": "contract",
+      "description": "* This role will be required to work from our downtown Toronto office 2 days a week. With millions of diners, 60,000 restaurant partners and 25 years of experience, OpenTable, part of Booking Holdings, Inc. (NASDAQ: BKNG), is an industry leader with a passion for helping restaurants thrive. Our world-class technology empowers restaurants to focus on what matters most – their team, their guests, and their bottom line – while enabling diners to discover and book the perfect restaurant for every o…",
+      "redirect_url": "https://www.adzuna.ca/details/5525920212?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "OpenTable",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "description": "Job Description Job Description DataVisor is the world’s leading AI-powered Fraud and Risk Platform that delivers the best overall detection coverage in the industry. With an open SaaS platform that supports easy consolidation and enrichment of any data, DataVisor's solution scales infinitely and enables organizations to act on fast-evolving fraud and money laundering activities in real time. Its patented unsupervised machine learning technology, advanced device intelligence, powerful decision …",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "DataVisor",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5539230292?utm_medium=api&utm_source=542c51d7",
+      "id": "5539230292",
+      "title": "Backend Software Engineer Internship Winter 2026",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTM5MjMwMjkyIn0.QurbvEn8-dFaFLBm42dXvDB9kkTB0iI3DV8CozsWo8g",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "created": "2025-12-12T02:06:52Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "description": "At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive. With over half a billion rides and counting, Lyft is solving hard problems in a flourishing domain with a lot of data and creative solutions in Marketplace, Mapping, Fraud, Growth and beyond. We're actively building the next-generation Machine Learning (ML) platform for low-cost, ultra-immersive transportation to improve people'…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5414542168?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=E03DFE57ADE408227336046A928CFA6E0AE2C698",
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "Lyft",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "title": "Software Engineer Intern, Machine Learning (Summer 2026)",
+      "id": "5414542168",
+      "created": "2025-09-25T19:15:16Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDE0NTQyMTY4In0.vbvBLppZ2VmXsdrSIW-aefyWIFRKJ4LzXV9cMPvk1u0"
+    },
+    {
+      "title": "Software Engineer Intern - Summer Session (Summer 2026)",
+      "latitude": 43.706102,
+      "id": "5486896515",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDg2ODk2NTE1In0.c9ZN_WrWDJWxQHRmxVR2WUW4kyjp9C3oWhbqM1sXuHg",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "created": "2025-11-08T05:48:36Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "description": "Nimble is a healthtech company on a mission to simplify access, understanding and management of healthcare. We are starting by building the largest, most loved pharmacy business in the world. We are a fast-growing, technology-first startup driven by perfecting the patient and pharmacist experience. Nimble fosters a culture of collaboration, open communication and deliberate action that allows us to face today’s most exciting challenges head-on and grow incredibly quickly. As a Nimble Engineer ,…",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5486896515?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NimbleRx"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "description": "About Pinterest Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the flexibility t…",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Pinterest"
+      },
+      "longitude": -79.402726,
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5513547280?utm_medium=api&utm_source=542c51d7",
+      "id": "5513547280",
+      "title": "Software Engineer Intern Summer Term 2026 (Toronto)",
+      "latitude": 43.706102,
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxMzU0NzI4MCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.7MnH1hbhZY7gRn5VfBRe2Uk5VEPnGVNlA2Zlwny-qrI",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-25T13:59:38Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "latitude": 43.706102,
+      "title": "Software Engineer Intern - iOS, Poe (Canada - Remote)",
+      "id": "5462311865",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-24T05:26:21Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDYyMzExODY1In0.yDVsAd1iYj-aDi3-TU1xw3NL22FypzK6ImN0KQzT2qw",
+      "contract_type": "contract",
+      "description": "[ Quora is a privately held, \"remote-first\" company . This position can be performed remotely from anywhere in Canada. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.] About Quora: Quora’s mission is to grow the world's collective intelligence. To do so, we have two platforms: Quora : a global knowledge sharing platform with over 300M monthly unique visitors, bringing people together to share insights on various topics and providing a u…",
+      "redirect_url": "https://www.adzuna.ca/details/5462311865?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Quora"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "contract_type": "contract",
+      "description": "Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the worl…",
+      "redirect_url": "https://www.adzuna.ca/details/5538138825?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "NVIDIA",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "title": "Software Engineering Intern, Robotics Simulation - Summer 2026",
+      "id": "5538138825",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-11T14:07:53Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzODEzODgyNSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.u_D3agUCmbJtJjv44NY7wuGWUvGNIokm64oPUO2y8zM"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MASIV | Mercedes and Singh Innovative Ventures"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5534609705?utm_medium=api&utm_source=542c51d7",
+      "description": "MASIV | Software Engineering Intern | 8-12 months starting Winter 2026 | In-Person only www.mercedesandsingh.com | Calgary, AB | Canadian Citizens and PR holders only Pay starting at $23.50/hour  Performance Raises/Bonuses MASIV (est. 2016) is an Architectural Design, Fabrication, and Build company fusing design, technology, and construction to innovate multi-scale products and environments. We are Master Builders for the 21st century, rejecting the segregation of traditional disciplines to cre…",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNDYwOTcwNSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.T5hKRkZ3UeY_DfDqRf8iMnPYkEqr9GICr4LpCCPbadY",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "created": "2025-12-09T09:39:06Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5534609705",
+      "title": "Software Engineer Intern (Winter 2026) 8-12 months"
+    },
+    {
+      "id": "5538020411",
+      "latitude": 43.706102,
+      "title": "Software Engineering Intern, Robot Learning Platform - Summer 2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-11T13:54:09Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "category": {
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTM4MDIwNDExIn0.OOl6fgRNzA3Tb3j-puFjmn0S6mhAT3UktsNelA6xFY8",
+      "description": "Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the worl…",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NVIDIA"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/details/5538020411?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time"
+    },
+    {
+      "description": "Lincoln Electric is the world leader in the engineering, design, and manufacturing of advanced arc welding solutions, automated joining, assembly and cutting systems, plasma and oxy-fuel cutting equipment, and has a leading global position in brazing and soldering alloys. Lincoln is recognized as the Welding Expert for its leading materials science, software development, automation engineering, and application expertise, which advance customers' fabrication capabilities to help them build a bet…",
+      "redirect_url": "https://www.adzuna.ca/details/5515204772?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Lincoln Electric"
+      },
+      "longitude": -80.533458,
+      "title": "Software Engineering Student Intern",
+      "latitude": 43.475913,
+      "id": "5515204772",
+      "location": {
+        "display_name": "Waterloo, Waterloo region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Waterloo region",
+          "Waterloo"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Engineering Jobs",
+        "tag": "engineering-jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTE1MjA0NzcyIn0.PD8cGkQTm4ym0b4g82nIHncBClJ2SumpoPanywZi0Bw",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-26T14:03:57Z"
+    },
+    {
+      "description": "Company Qualcomm Canada ULC Job Area Interns Group, Interns Group > Interim Engineering Intern - SW Qualcomm Overview Qualcomm is a company of inventors that unlocked 5G ushering in an age of rapid acceleration in connectivity and new possibilities that will transform industries, create jobs, and enrich lives. But this is just the beginning. It takes inventive minds with diverse skills, backgrounds, and cultures to transform 5Gs potential into world-changing technologies and products. This is t…",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Qualcomm"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5508237577?utm_medium=api&utm_source=542c51d7",
+      "id": "5508237577",
+      "title": "FY26 Intern - Telemetry and Tuning Software Engineering Internship - Canada (16 months)",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Engineering Jobs",
+        "tag": "engineering-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwODIzNzU3NyIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.JuA3H9T9NVEHH3NxgaTwFz1yovHtBPuNJHXUl1eHY4U",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Markham, York region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "York region",
+          "Markham"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-11-21T14:33:36Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "description": "Description Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands. Our Software Development Engineers (SDEs) use modern…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Amazon"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5528569746?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=2D718D8105F9D5AEEADE1C6331D09EA2E8DC605C",
+      "id": "5528569746",
+      "title": "Robotics - Software Development Engineer Intern - 2026 - Toronto",
+      "latitude": 43.706102,
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyODU2OTc0NiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.Kq2qzJ5F4XcjcsoONIVGnsSSYEawtyQSsjSYXoK2rd4",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-04T18:00:43Z"
+    },
+    {
+      "title": "Software Development Engineer Internship - Summer 2026 (Canada)",
+      "latitude": 49.256582,
+      "id": "5470265926",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ3MDI2NTkyNiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.sZu6NaUP4tCBTifVHmcUru_rTeuOko_7Y9kKF-1IPRA",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "display_name": "Greater Vancouver, British Columbia",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-29T19:49:01Z",
+      "description": "Description By applying to this position, your application will only be considered for our summer Software Development Engineer (SDE) internship roles. Our summer intern roles have start dates in May/June 2026 and are 12 weeks in duration. Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best…",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5470265926?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=FCC0DB96C071DA5E6E79588922ADBD963A62C5F8",
+      "longitude": -122.898456,
+      "company": {
+        "display_name": "Amazon",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "latitude": 49.252255,
+      "title": "Software Development Engineer Internship - Summer 2026 (Canada)",
+      "id": "5468747430",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-28T20:05:23Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Vancouver, Greater Vancouver",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver",
+          "Vancouver"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDY4NzQ3NDMwIn0.ofazwv4CZuNAF_cVYdyUw2_xjqPsPTuBomfhsHfko00",
+      "contract_type": "contract",
+      "description": "By applying to this position, your application will only be considered for our summer Software Development Engineer (SDE) internship roles. Our summer intern roles have start dates in May/June 2026 and are 12 weeks in duration. Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in te…",
+      "redirect_url": "https://www.adzuna.ca/details/5468747430?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "longitude": -123.108651,
+      "company": {
+        "display_name": "Amazon Development Centre Canada ULC - K03",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/details/5526736110?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Amazon Development Centre Canada ULC - K03",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726,
+      "contract_type": "contract",
+      "description": "Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands. Our Software Development Engineers (SDEs) use modern technology …",
+      "created": "2025-12-03T18:21:27Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyNjczNjExMCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.jz89GeVqZbzollUDvphPBca1gnE--9bTylwtUsTdgTU",
+      "latitude": 43.706102,
+      "title": "Robotics - Software Development Engineer Intern - 2026 - Toronto",
+      "id": "5526736110"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-05T14:27:56Z",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTI5NzkxNjQ0In0.xNvb1ckizEBu_lZJcqAw1TYaBiiXebc88s4tSxFzuWg",
+      "id": "5529791644",
+      "latitude": 43.706102,
+      "title": "Robotics - Software Development Engineer Intern - 2026 - Toronto",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Amazon"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/details/5529791644?utm_medium=api&utm_source=542c51d7",
+      "description": "Description Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands. Our Software Development Engineers (SDEs) use modern…"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMTMzOTQwMSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.Wjk_qxDcwYv8zdzte-JUrQ6xTqMYpBgMHEwWpSynYbI",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-06T12:37:50Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5531339401",
+      "title": "Robotics - Software Development Engineer Intern - 2026 - Toronto",
+      "latitude": 43.706102,
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "Amazon",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5531339401?utm_medium=api&utm_source=542c51d7",
+      "description": "Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands. Our Software Development Engineers (SDEs) use modern technology …",
+      "contract_type": "contract"
+    },
+    {
+      "description": "By applying to this position, your application will only be considered for our summer Software Development Engineer (SDE) internship roles. Our summer intern roles have start dates in May/June 2026 and are 12 weeks in duration. Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide? At Amazon, we hire the best minds in te…",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Amazon",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -122.898456,
+      "redirect_url": "https://www.adzuna.ca/details/5477969099?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "id": "5477969099",
+      "latitude": 49.256582,
+      "title": "Software Development Engineer Internship - Summer 2026 (Canada)",
+      "created": "2025-11-03T04:33:11Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Greater Vancouver, British Columbia",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDc3OTY5MDk5In0.8My1ERh7O9NFgwSn15VWk8b5gMOtVDSgRjkwk-UtsJo"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5492613886?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=A63ADF41ADBE4B21D3B1517D76EF519C65A34C6C",
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "Mastercard",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "Our Purpose _Mastercard powers economies and empowers people in 200 countries and territories worldwide. Together with our customers, we're helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest po…",
+      "created": "2025-11-12T14:06:17Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDkyNjEzODg2In0.WsRhXdOjgkGPLPUTTrrtD-6ifEZX60eArDyVtvpa-ww",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "latitude": 43.706102,
+      "title": "Intern, Software Engineering",
+      "id": "5492613886"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Nokia Global"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5536443917?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "description": "Description Position: Software Engineer Co-op/Intern Number of Position(s): 1 Duration: 4 Months Date: May to August, 2026 Location: Hybrid in Ottawa EDUCATIONAL RECOMMENDATIONS Currently a candidate for a Master’s, bachelor's degree or Diploma in Computer Science, Computer Systems Engineering, Software Engineering or a related field with an accredited school in Canada. Responsibilities As part of our team, you will: Collaborate with software designers and testers to refine requirements, develo…",
+      "contract_type": "contract",
+      "created": "2025-12-10T13:39:59Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTM2NDQzOTE3In0.25xy4JCtxZlGKqufvRVyUz0udHfI1Y3SwDvxNfWD-Lo",
+      "id": "5536443917",
+      "title": "Software Engineer Co-op/Intern"
+    },
+    {
+      "contract_type": "contract",
+      "description": "Job Description Position: Software Engineer Co-op/Intern Number of Position(s): 1 Duration: 4 Months Date: May to August, 2026 Location: Hybrid in Ottawa EDUCATIONAL RECOMMENDATIONS Currently a candidate for a Master’s, bachelor's degree or Diploma in Computer Science, Computer Systems Engineering, Software Engineering or a related field with an accredited school in Canada. How You Will Contribute And What You Will Learn As part of our team, you will: Collaborate with software designers and tes…",
+      "redirect_url": "https://www.adzuna.ca/details/5536485775?utm_medium=api&utm_source=542c51d7",
+      "longitude": -75.894382,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Nokia"
+      },
+      "title": "Software Engineer Co-op/Intern",
+      "latitude": 45.311989,
+      "id": "5536485775",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "display_name": "Kanata, Ottawa region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Ottawa region",
+          "Kanata"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTM2NDg1Nzc1In0.PCQrGO6ij9vFya5eXXTpong6F4OTbrsGviKAx9RaAyI",
+      "created": "2025-12-10T13:44:37Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "id": "5529384010",
+      "title": "Software Engineering, Metal Runtime Intern/PEY",
+      "created": "2025-12-05T12:15:23Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTI5Mzg0MDEwIn0.IUumkrxkyb7kEsbXtb76zMVsV0ZUn89GIz56Xsxuvcs",
+      "description": "Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in software models, compilers, platforms, networking, and semiconductors. Our diverse team of technologists have developed a high performance RISC-V CPU from scratch, and share a passion for AI and a deep desire to build the best AI platform possible. We value collabora…",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Tenstorrent University Jobs",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5529384010?utm_medium=api&utm_source=542c51d7"
+    },
+    {
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5499393701?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Lumentum"
+      },
+      "contract_type": "contract",
+      "description": "It's fun to work in a company where people truly BELIEVE in what they're doing! We're committed to bringing passion and customer focus to the business. If you like wild growth and working with happy, enthusiastic over-achievers, you'll enjoy your career with us! Lumentum Canada was awarded the 2022 National Capital Region’s Top Employers for the 6th consecutive year and the 2022 Career Directory Canada’s Best Employers for Recent Graduates for the 5th consecutive year . Position Title: Embedded…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5OTM5MzcwMSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.zAYsPsI_nJcF9O3tNVcZZhE5BmV2zM5I3oT11ls36W0",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-16T11:51:34Z",
+      "title": "Embedded Software Engineer Co-op/Intern",
+      "id": "5499393701"
+    },
+    {
+      "description": "Role Type: Internship/Co-op Work Term: Summer/Term 3 Work Location: Toronto, Ontario, Canada Hours: 37.5 Pay Details: $45,700 - $74,400 CAD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The bas…",
+      "company": {
+        "display_name": "TD Bank",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5526721696?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=4814CB92E498E89A65ACBA47BA842FC255FDA72D",
+      "id": "5526721696",
+      "title": "TD Talent Connect - University of Toronto (January 15 & 16, 2026) - Co-op/Intern Applicants",
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyNjcyMTY5NiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.FdJhQrwvPu17GYGjB9gQrINqrCpDLyQLfZ--fMKJ2y4",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-03T18:10:48Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "id": "5527984948",
+      "title": "TD Talent Connect - University of Toronto (January 15 & 16, 2026) - Co-op/Intern Applicants",
+      "latitude": 43.706102,
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyNzk4NDk0OCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.QgiFeCZh8BJ4yGqJXvJCXaAed1Nw-Re0BY-It2Cxi_I",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2025-12-04T13:49:25Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Role Type: Internship/Co-op Work Term: Summer/Term 3 Work Location: Toronto, Ontario, Canada Hours: 37.5 Pay Details: $45,700 - $74,400 CAD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The bas…",
+      "contract_type": "contract",
+      "longitude": -79.402726,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "TD Securities"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5527984948?utm_medium=api&utm_source=542c51d7"
+    },
+    {
+      "created": "2025-11-12T13:43:33Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "display_name": "Greater Vancouver, British Columbia"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5MjU5OTI4MSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.7gZ0Jcgw2zWIZmEaWwC8U_Rj5L4JIDaDErthVimDEfg",
+      "id": "5492599281",
+      "latitude": 49.256582,
+      "title": "Software Engineer, Summer 2026 - Vancouver, Canada",
+      "longitude": -122.898456,
+      "company": {
+        "display_name": "Mastercard",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5492599281?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=312DD379F340A9970CE8B39226A6144E56BE1ABF",
+      "description": "Our Purpose _Mastercard powers economies and empowers people in 200 countries and territories worldwide. Together with our customers, we're helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest po…"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "DoorDash Canada"
+      },
+      "longitude": -79.402726,
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5436995264?utm_medium=api&utm_source=542c51d7",
+      "description": "About the Team DoorDash is building the world’s most reliable on-demand logistics engine for delivery! We’re looking for experienced engineers to join our fast-growing engineering team to help us develop a 24x7 global infrastructure system that powers DoorDash’s three-sided marketplace of consumers, merchants, and dashers. About the Role We are looking for highly motivated college students looking for post-graduation work opportunities to start their career at DoorDash! Our product engineers im…",
+      "contract_type": "contract",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDM2OTk1MjY0In0.RciduBJkfP0FsygLXvnfn5bhII9ntiAZbDiZjmpsIPY",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-08T05:19:31Z",
+      "id": "5436995264",
+      "title": "Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)",
+      "latitude": 43.706102
+    },
+    {
+      "contract_type": "contract",
+      "description": "Huawei Canada has an immediate internship opening for a Research Engineer. About the team: The Intelligent Testing Technology Team, currently a part of the Waterloo Research Centre, is at the forefront of integrating large language models (LLMs) with formal methods to advance artificial intelligence. By harnessing LLMs' strengths in natural language processing and generation, this team explores their synergy with the precision of formal verification techniques. As part of this team, you will co…",
+      "redirect_url": "https://www.adzuna.ca/details/5511693266?utm_medium=api&utm_source=542c51d7",
+      "longitude": -79.36517,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Huawei Technologies Canada Co., Ltd."
+      },
+      "title": "Intern Research Engineer - Software Systems Engineering/LLMs",
+      "latitude": 43.85036,
+      "id": "5511693266",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "York region",
+          "Unionville"
+        ],
+        "display_name": "Unionville, York region"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxMTY5MzI2NiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.4_2NWyM9Fg-z2W5qfUx-ul1f3VVW8NJFK10562b3oWA",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-24T15:14:50Z"
+    },
+    {
+      "description": "About the Team DoorDash is building the world’s most reliable on-demand logistics engine for delivery! We’re looking for experienced engineers to join our fast-growing engineering team to help us develop a 24x7 global infrastructure system that powers DoorDash’s three-sided marketplace of consumers, merchants, and dashers. About the Role Our product engineers implement and operate technological solutions to improve the experiences of our merchants, dashers, and consumers. From creating beautifu…",
+      "company": {
+        "display_name": "DoorDash Canada",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5497442721?utm_medium=api&utm_source=542c51d7",
+      "salary_max": 118000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ5NzQ0MjcyMSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.0xj2DNFVFZIPYrNxZQLIhv3vjF-SNxst0NHlTcCQhPY",
+      "salary_min": 115500,
+      "longitude": -79.402726,
+      "contract_time": "full_time",
+      "id": "5497442721",
+      "latitude": 43.706102,
+      "title": "Software Engineer, Entry-Level",
+      "created": "2025-11-15T11:52:33Z",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "title": "Machine Learning Engineer Intern - Poe (Canada - Remote)",
+      "latitude": 43.706102,
+      "id": "5462324481",
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ2MjMyNDQ4MSIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.pwgB3RPYKV-dxe2KTyx9MTGS_GADXA8bVILps3qaAWg",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-24T05:33:42Z",
+      "contract_type": "contract",
+      "description": "[ Quora is a privately held, \"remote-first\" company . This position can be performed remotely from anywhere in Canada. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.] About Quora: Quora’s mission is to grow the world's collective intelligence. To do so, we have two platforms: Quora : a global knowledge sharing platform with over 300M monthly unique visitors, bringing people together to share insights on various topics and providing a u…",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5462324481?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "Quora",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "latitude": 43.706102,
+      "title": "AI Engineer Intern - Poe (Canada - Remote)",
+      "id": "5474663898",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-01T05:47:50Z",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ3NDY2Mzg5OCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.ACXT8nNwmDGH5L9e1ojL2mq_13IErU8oxpFKwZFuxto",
+      "contract_type": "contract",
+      "description": "[ Quora is a privately held, \"remote-first\" company . This position can be performed remotely from anywhere in Canada. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.] About Quora: Quora’s mission is to grow the world's collective intelligence. To do so, we have two platforms: Quora : a global knowledge sharing platform with over 300M monthly unique visitors, bringing people together to share insights on various topics and providing a u…",
+      "redirect_url": "https://www.adzuna.ca/details/5474663898?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Quora"
+      },
+      "longitude": -79.402726
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-02T04:34:26Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDc2ODAzOTM0In0.OPeOhWmqiXlb4kvEna2etVGGi-Bc295XbvOLictIXkk",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "id": "5476803934",
+      "latitude": 43.706102,
+      "title": "2026 - Education Engineering Intern, Toronto",
+      "company": {
+        "display_name": "MongoDB",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/details/5476803934?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "description": "The Education Engineering department is responsible for platforms and AI tools that power MongoDB learning worldwide, including the documentation platform, MongoDB University, and the MongoDB AI Assistant. We’re seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, deepen your software development knowledge, and gain professional coding experience. Software Engineering Interns within the Education engineering department are fully integrated sof…",
+      "contract_type": "contract"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5473588660?se=mOY32e7Z8BG1I_-lzEKhsQ&utm_medium=api&utm_source=542c51d7&v=6B419A5D1D5F7E3C7A0A65D3222D3A1649B5E5CF",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MongoDB"
+      },
+      "longitude": -79.402726,
+      "description": "The Education Engineering department is responsible for platforms and AI tools that power MongoDB learning worldwide, including the documentation platform, MongoDB University, and the MongoDB AI Assistant. We're seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, deepen your software development knowledge, and gain professional coding experience. Software Engineering Interns within the Education engineering department are fully integrated sof…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-10-31T19:40:34Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NDczNTg4NjYwIn0.-JWMVPFxac_-JBJSenwrbVetmur1JneHvl-BIM0U_MM",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "latitude": 43.706102,
+      "title": "2026 - Education Engineering Intern, Toronto",
+      "id": "5473588660"
+    },
+    {
+      "longitude": -79.402726,
+      "company": {
+        "display_name": "EQ Bank",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5539889074?utm_medium=api&utm_source=542c51d7",
+      "description": "Join a Challenger Being a traditional bank just isn’t our thing, so we challenge ourselves to get creative in providing innovative banking solutions for Canadians. How do we get there? With a talented team of inquisitive and agile challengers that break through the status quo. So, if you’re passionate about redefining the future of banking—while having fun—this could be your next big opportunity. Our company continues to grow, and today we serve more than 670,000 people across Canada through Eq…",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "graduate-jobs",
+        "label": "Graduate Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzOTg4OTA3NCIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.0Lw8fkz_Y-1Ou-Jk5BhydgAIOAgKc281ewYzPZZLpH4",
+      "created": "2025-12-12T13:55:22Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5539889074",
+      "title": "Engineering Graduate Program",
+      "latitude": 43.706102
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-06T12:34:48Z",
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibU9ZMzJlN1o4QkcxSV8tbHpFS2hzUSIsImkiOiI1NTMxMjgwMzY4In0.UDwQLuXbTRcA1Hl_ZvPjJyM5nWO6ng5TLPN_gwPLH3U",
+      "title": "Cyber Security Dome Test Eng Student",
+      "id": "5531280368",
+      "redirect_url": "https://www.adzuna.ca/details/5531280368?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Nokia Global"
+      },
+      "contract_type": "contract",
+      "description": "Description Position: Cyber Security Dome Test Eng Student Number of Position(s): 1 Duration: 4 Months Date: May to August 2026 Location: Hybrid in Ottawa, Canada EDUCATIONAL RECOMMENDATIONS Currently a candidate for a Master’s, Bachelor's degree or Diploma in Computer Science or a related field, with an accredited school in Canada. Responsibilities As a part of our team, you will: Work with a team of software engineers and/or other interns/coops developing application software and services tha…"
+    },
+    {
+      "id": "5532436812",
+      "title": "Autonomous Network Fabric Eng Student",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjQzNjgxMiIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.00vW91167FFCUfr56VA9_mcy20Q2LfEdX4kbVzTDZGA",
+      "created": "2025-12-07T12:14:19Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Description Position: Autonomous Network Fabric Eng Student Number of Position(s): 5 Duration : 4 Months Date: May to August 2026 Location: Hybrid in Ottawa, Canada EDUCATIONAL RECOMMENDATIONS Currently a candidate for a Master’s, Bachelor's degree or Diploma in Computer Science or a related field, with an accredited school in Canada. Responsibilities As a part of our team, you will: Work with a team of software engineers and/or other interns/coops developing application software and services t…",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Nokia Global"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.ca/details/5532436812?utm_medium=api&utm_source=542c51d7"
+    },
+    {
+      "contract_type": "contract",
+      "description": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team  role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers…",
+      "redirect_url": "https://www.adzuna.ca/details/5414221323?utm_medium=api&utm_source=542c51d7",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Robinhood"
+      },
+      "longitude": -79.402726,
+      "latitude": 43.706102,
+      "title": "Software Developer Intern, Backend (Summer 2026)",
+      "id": "5414221323",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-09-25T05:44:16Z",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNDIyMTMyMyIsInMiOiJtT1kzMmU3WjhCRzFJXy1sekVLaHNRIn0.UcLUOs4hPwEKLWBqWOSBMLBflebrVblnTxnlB6oLOQ0"
+    }
+  ],
+  "mean": 116305.56,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults"
+}

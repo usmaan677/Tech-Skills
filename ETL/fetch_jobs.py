@@ -2,11 +2,18 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
+from collections import Counter
+from supabase import create_client
 
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+
 ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID")
 ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY")
 
@@ -28,6 +35,52 @@ def fetch_jobs(page = 1, what = "software engineer", results_per_page = 50,):
         raise RuntimeError(f"Adzuna API error: {resp.status_code} - {resp.text}")
     
     return resp.json()
+
+def create_job_search(search_term, country):
+    resp = supabase.table("job_searches").insert({
+        "search_term":search_term,
+        "country": country or "ca"
+    }).execute()
+    return resp.data[0]["id"]
+
+def get_skill_id_map():
+    resp = supabase.table("skills").select("id,name").execute()
+    rows = resp.data or []
+    
+    skill_map = {}
+
+    for r in rows:
+        name = r["name"] 
+        skill_id = r["id"]
+        skill_map[name] = skill_id
+    
+    return skill_map
+
+def upsert_search_skill_counts(search_id, normalized_jobs):
+    skill_id_map = get_skill_id_map()
+
+    skill_counts = Counter()
+
+    for job in normalized_jobs:
+        skills = set(job.get("skills") or [] )
+        for skill in skills:
+            skill_counts[skill] += 1
+    
+    rows = []
+    for skill,count in skill_counts.items():
+        if skill in skill_id_map:
+            rows.append({
+                "search_id": search_id,
+                "skill_id": skill_id_map[skill],
+                "count":count
+            })
+
+    if rows:
+        supabase.table("search_skill_counts").upsert(
+            rows,
+            on_conflict="search_id,skill_id"
+        ).execute()
+
 
 def save_raw_results(data, search_term):
     os.makedirs("data/raw",exist_ok=True)
@@ -126,12 +179,14 @@ def parse_raw_file(path, out_path):
 
     normalized = [normalize_job(job) for job in raw_results]
     Path(out_path).write_text(json.dumps(normalized, ensure_ascii= False, indent = 2))
+    return normalized
 
 def main():
     if not ADZUNA_APP_ID or not ADZUNA_APP_KEY:
         raise RuntimeError("Missing ADZUNA_APP_ID or ADZUNA_APP_KEY in .env")
     
     search_term = "software engineer intern"
+    country = "ca"
     page = 1
 
     data = fetch_jobs(page =page, what=search_term, results_per_page=50)
@@ -139,7 +194,12 @@ def main():
 
     timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     processed_filename = f"data/processed/parsed_jobs_{timestamp}.json"
-    parse_raw_file(raw_filename, processed_filename)
+    normalized_jobs = parse_raw_file(raw_filename, processed_filename)
+    
+    search_id = create_job_search(search_term, country)
+    upsert_search_skill_counts(search_id, normalized_jobs)
+
+    
 
     results = data.get("results",[])
 
