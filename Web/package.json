@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "@supabase/supabase-js": "^2.88.0",
     "@tailwindcss/vite": "^4.1.18",
+    "recharts": "^3.6.0",
     "tailwindcss": "^4.1.18"
   }
 }
