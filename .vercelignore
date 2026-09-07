@@ -1,0 +1,6 @@
+# Vercel only needs the frontend source and api/. Keep the 111MB of raw and
+# processed job JSON out of the deployment bundle - it is ETL input, and the
+# serverless function reads from Supabase, never from disk.
+ETL/data/
+ETL/.venv/
+**/__pycache__/

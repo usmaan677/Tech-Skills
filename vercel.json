@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm --prefix Web/techSkills ci",
+  "buildCommand": "npm --prefix Web/techSkills run build",
+  "outputDirectory": "Web/techSkills/dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" }
+  ]
+}

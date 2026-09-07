@@ -1,0 +1,18 @@
+# Direct dependencies only. Transitive packages (httpx, pydantic, postgrest,
+# starlette, ...) are resolved by pip from these, so they are deliberately
+# not pinned here.
+#
+# Pinned to exact versions so the GitHub Actions runner installs the same
+# thing that runs locally - an unpinned build can pass today and fail next
+# week when an upstream release lands.
+
+# --- API (main.py) ---
+fastapi==0.124.4
+uvicorn==0.38.0          # local dev server; Vercel supplies its own ASGI server
+
+# --- ETL (fetch_greenhouse.py, load_jobs.py, skills_seed.py) ---
+requests==2.32.5
+
+# --- both ---
+supabase==2.25.1
+python-dotenv==1.2.1
