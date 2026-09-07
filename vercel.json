@@ -1,16 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-
-  "// framework": "null means 'Other'. NOT 'fastapi' - that preset treats the",
-  "// framework2": "whole repo as one Python server and never builds the React",
-  "// framework3": "app. This project is a static Vite site plus Python functions",
-  "// framework4": "in api/, which Vercel picks up automatically under 'Other'.",
   "framework": null,
-
   "installCommand": "npm --prefix Web/techSkills ci",
   "buildCommand": "npm --prefix Web/techSkills run build",
   "outputDirectory": "Web/techSkills/dist",
-
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index" }
   ]
