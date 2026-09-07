@@ -106,16 +106,14 @@ def run_search(req: SearchRequest):
         # 1. Check if we already have this search
         existing_id = find_recent_search(req.search_term, req.country)
         if existing_id:
+            print(f"Found existing search {existing_id} for '{req.search_term}'")
             skills = get_search_results(existing_id)
-            if skills:                          # only trust a cache that has data
-                print(f"Found existing search {existing_id} for '{req.search_term}'")
-                return {
-                    "search_id": existing_id,
-                    "search_term": req.search_term,
-                    "country": req.country,
-                    "skills": skills,
-                }
-            print(f"Cached search {existing_id} is empty - re-running pipeline")
+            return {
+                "search_id": existing_id,
+                "search_term": req.search_term,
+                "country": req.country,
+                "skills": skills,
+            }
 
         # 2. If not, run the full pipeline
         all_results = []

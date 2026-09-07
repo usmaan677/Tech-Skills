@@ -303,6 +303,46 @@ def normalize_job(raw_job):
         "skills": extract_skills_from_description(desc),
     }
 
+def _dedupe_key(job):
+    """Identity of a job opening, ignoring cosmetic differences."""
+    title = re.sub(r"\s+", " ", (job.get("title") or "")).strip().lower()
+    company = re.sub(r"\s+", " ", (job.get("company") or "")).strip().lower()
+    return (title, company)
+
+def dedupe_jobs(jobs):
+    """
+    Collapse syndicated re-posts of the same opening.
+
+    Adzuna gives every syndicated copy its own id, so one posting blasted
+    across 85 cities arrives as 85 rows. Counting those separately lets a
+    single employer dominate the skill counts, so we key on content
+    (title + company) rather than on the id.
+
+    Keeps the copy with the longest description and records how many raw
+    rows collapsed into it as `posting_count`.
+    """
+    kept = {}
+
+    for job in jobs:
+        key = _dedupe_key(job)
+        existing = kept.get(key)
+
+        if existing is None:
+            job = dict(job)
+            job["posting_count"] = 1
+            kept[key] = job
+            continue
+
+        existing["posting_count"] += 1
+
+        if len(job.get("description") or "") > len(existing.get("description") or ""):
+            promoted = dict(job)
+            promoted["posting_count"] = existing["posting_count"]
+            kept[key] = promoted
+
+    return list(kept.values())
+
+
 def parse_raw_file(path, out_path):
 
     os.makedirs(Path(out_path).parent, exist_ok=True)
@@ -312,6 +352,7 @@ def parse_raw_file(path, out_path):
 
 
     normalized = [normalize_job(job) for job in raw_results]
+    normalized = dedupe_jobs(normalized)
     Path(out_path).write_text(json.dumps(normalized, ensure_ascii= False, indent = 2))
     return normalized
 
@@ -329,10 +370,10 @@ def main():
         page = 1 + i
         print(f"Fetching page {page}...")
         try:
-            data = fetch_jobs(page=page, what=search_term, results_per_page=100, country=country)
+            data = fetch_jobs(page=page, what=search_term, results_per_page=50, country=country)
             results = data.get("results", [])
             all_results.extend(results)
-            if len(results) < 100:
+            if len(results) < 50:
                 break
         except Exception as e:
             print(f"Error on page {page}: {e}")
@@ -348,7 +389,7 @@ def main():
     search_id = create_job_search(search_term, country)
     upsert_search_skill_counts(search_id, normalized_jobs)
 
-    print(f"Done. Processed {len(all_results)} jobs.")
+    print(f"Done. Processed {len(normalized_jobs)} jobs.")
 
 if __name__ == "__main__":
     main()

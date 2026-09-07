@@ -1,0 +1,48 @@
+[
+  {
+    "id": "5854899736",
+    "title": "SEDSS -Software Developer",
+    "company": "SimVentions, Inc",
+    "location": "Lexington Park, St. Mary's County",
+    "created": "2026-08-24T22:39:41Z",
+    "category": "Engineering Jobs",
+    "description": "Overview: SimVentions is 100% employee-owned and proudly ranked among Virginia’s Best Places to Work year after year! We are looking for a skilled C++ Software Developer to provide support to aircraft software maintenance efforts. This role is located at NAVAIR-PAX River in St. Mary's County, MD and requires on-site presence 5 days/week. Clearance: An ACTIVE Secret Clearance is required for this position. Applicants selected will be subject to a security investigation and must meet eligibility …",
+    "skills": [
+      "c++"
+    ],
+    "posting_count": 9
+  },
+  {
+    "id": "5856907780",
+    "title": "Software Engineer II",
+    "company": "Mastercard",
+    "location": "Weldon Spring, Saint Charles County",
+    "created": "2026-08-26T10:46:58Z",
+    "category": "IT Jobs",
+    "description": "Our Purpose Mastercard powers economies and empowers people in 200 countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest pot…",
+    "skills": [],
+    "posting_count": 1
+  },
+  {
+    "id": "5791221736",
+    "title": "Manager, Software Engineering",
+    "company": "Mastercard",
+    "location": "Weldon Spring, Saint Charles County",
+    "created": "2026-07-07T15:35:37Z",
+    "category": "IT Jobs",
+    "description": "Our Purpose Mastercard powers economies and empowers people in 200 countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest pot…",
+    "skills": [],
+    "posting_count": 1
+  },
+  {
+    "id": "5864854435",
+    "title": "Senior Software Engineer",
+    "company": "SAAB",
+    "location": "Elmwood, Plymouth County",
+    "created": "2026-09-01T11:33:18Z",
+    "category": "IT Jobs",
+    "description": "Job Description: Saab Inc.'s Autonomous and Undersea Systems (AUS) division is seeking an innovative and experienced Senior Software Engineer to participate on technical teams defining, architecting, implementing, integrating, verifying, delivering, and maintaining software products and solutions for autonomous Unmanned Surface/Underwater Vehicles (USVs/UUVs/AUVs) and Remotely Operated Vehicles (ROVs). As the successful candidate for this role, you will be a key contributor to the Saab AUS team…",
+    "skills": [],
+    "posting_count": 139
+  }
+]

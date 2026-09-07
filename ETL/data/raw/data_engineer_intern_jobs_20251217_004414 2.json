@@ -1,0 +1,373 @@
+{
+  "mean": 83000,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "results": [
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMDk5MjMxNyIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.wIfmGAzYNo5dTepYleNsBvcBeerzzwHhz7GZ_rtMv-g",
+      "latitude": 45.573903,
+      "description": "About SalesPilot 365 SalesPilot 365 is a modern staffing and talent acquisition platform connecting organisations with top-tier talent across emerging technology domains. As part of our expansion into data-driven and cloud-first ecosystems, we are inviting motivated individuals to join our Data Engineering Internship Cohort . Role Overview As a Data Engineering Intern at SalesPilot 365 , you will work with data and engineering teams to design, build, and maintain data pipelines that support ana…",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "longitude": -73.650516,
+      "title": "Data Engineering Intern",
+      "contract_type": "contract",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Montréal North, Montréal",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal",
+          "Montréal North"
+        ]
+      },
+      "id": "5530992317",
+      "salary_is_predicted": "0",
+      "created": "2025-12-06T09:56:12Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SalesPilot 365 | CRM"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530992317?se=1s6IguHa8BGudZ9RfitdSg&utm_medium=api&utm_source=542c51d7&v=F609A2A86B5E82BB273E7DF51BAB8477EAB3B2F4"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530993738?se=1s6IguHa8BGudZ9RfitdSg&utm_medium=api&utm_source=542c51d7&v=4771982CFE4C218397404A5B5FBFAB90042793D7",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SalesPilot 365 | CRM"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-06T09:57:07Z",
+      "salary_is_predicted": "0",
+      "id": "5530993738",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_type": "contract",
+      "title": "Data Engineering Intern",
+      "longitude": -79.402726,
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "description": "About SalesPilot 365 SalesPilot 365 is a modern staffing and talent acquisition platform connecting organisations with top-tier talent across emerging technology domains. As part of our expansion into data-driven and cloud-first ecosystems, we are inviting motivated individuals to join our Data Engineering Internship Cohort . Role Overview As a Data Engineering Intern at SalesPilot 365 , you will work with data and engineering teams to design, build, and maintain data pipelines that support ana…",
+      "latitude": 43.706102,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMDk5MzczOCIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0._v6QWXQu8KEoFvjJsOALNZG0ruiKWbj48yQpwJyes4A"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "description": "Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in software models, compilers, platforms, networking, and semiconductors. Our diverse team of technologists have developed a high performance RISC-V CPU from scratch, and share a passion for AI and a deep desire to build the best AI platform possible. We value collabora…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXM2SWd1SGE4Qkd1ZFo5UmZpdGRTZyIsImkiOiI1NDkzMzE3MDE3In0.8MAk2DhiefsI4VZK3T18YxKcW5oJGAuNpvcdbi0n6gE",
+      "title": "Data Engineering Intern",
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "id": "5493317017",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5493317017?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "Tenstorrent University Jobs",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-13T06:07:28Z"
+    },
+    {
+      "longitude": -79.402726,
+      "contract_type": "contract",
+      "title": "Data Engineering Intern",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXM2SWd1SGE4Qkd1ZFo5UmZpdGRTZyIsImkiOiI1NDc2Nzk0NzI2In0.J0ZRDn9BfmVeWChJOB4aGgcD1ffVIMC_MORUzbuo9Js",
+      "contract_time": "full_time",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "latitude": 43.706102,
+      "description": "Position Overview At ShyftLabs, we live and breathe data and we want you to, too. We help Fortune 500 companies unlock massive growth with cutting-edge digital solutions. We're not just looking for interns, we're looking for the next generation of data engineers. If you’re excited by the idea of building scalable data pipelines, optimizing cloud infrastructure, and enabling smarter business decisions through data, this opportunity is for you. You’ll collaborate closely with experienced engineer…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-02T04:27:38Z",
+      "redirect_url": "https://www.adzuna.ca/details/5476794726?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "ShyftLabs",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5476794726",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "salary_is_predicted": "0"
+    },
+    {
+      "created": "2025-09-12T18:06:01Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Atlassian",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5396759974?utm_medium=api&utm_source=542c51d7",
+      "location": {
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5396759974",
+      "salary_is_predicted": "0",
+      "contract_type": "contract",
+      "title": "Data Engineer Intern, 2026 Summer Canada",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXM2SWd1SGE4Qkd1ZFo5UmZpdGRTZyIsImkiOiI1Mzk2NzU5OTc0In0.hdgHC4EHr57D7d8VQs_z32_PhxExg4gWfkhuyrrDq7c",
+      "description": "Working at Atlassian Atlassians have the flexibility to work where they can collaborate most effectively with their team, whether at home, one of our global offices, or both. As a distributed-first company, all interviews are conducted virtually. We hire in any country where we have a legal entity. Learn how we work at go.atlassian.com/distributed . Your Future Org Atlassian’s Intern program combines hands-on technical training, professional growth opportunities, dedicated mentorship, and stron…",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "contract_time": "full_time"
+    },
+    {
+      "created": "2025-12-12T22:19:28Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Autodesk"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5540650714?se=1s6IguHa8BGudZ9RfitdSg&utm_medium=api&utm_source=542c51d7&v=FD200921F763B2E75F5DA89293835C2E179E2B5C",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5540650714",
+      "salary_is_predicted": "0",
+      "longitude": -79.402726,
+      "title": "Intern, Data Engineer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MDY1MDcxNCIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.qtWHS69RU0NdS6yZhwaYyDpA13XdnxHQc13mc9oMHw8",
+      "latitude": 43.706102,
+      "description": "Job Requisition ID  25WD92296 Position Overview Autodesk is looking for a talented and motivated Data Engineer to join our Analytics team to develop robust and scalable data pipelines using and improving existing platforms. The successful candidate will drive performance enhancements, build pipelines, and collaborate with other Data Engineering teams across Autodesk. You will work with cutting edge technologies in big data space. Responsibilities  Develop, automate,migrateand support robust and…",
+      "category": {
+        "label": "Engineering Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs"
+      }
+    },
+    {
+      "title": "Intern, Data Engineer",
+      "contract_type": "contract",
+      "category": {
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "contract_time": "full_time",
+      "description": "Job Requisition ID  25WD92296 Position Overview Autodesk is looking for a talented and motivated Data Engineer to join our Analytics team to develop robust and scalable data pipelines using and improving existing platforms. The successful candidate will drive performance enhancements, build pipelines , and collaborate with other Data Engineering teams across Autodesk. You will work with cutting edge technologies in big data space . Responsibilities Develop, automate, migrate and support robust …",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MjE1NTY1MyIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.36CpLQjVczzoZTwKNgblT8Yn4ba-iNjDlDqhC9KmRA4",
+      "redirect_url": "https://www.adzuna.ca/details/5542155653?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "Autodesk",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-14T13:45:40Z",
+      "salary_is_predicted": "0",
+      "id": "5542155653",
+      "location": {
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "salary_is_predicted": "0",
+      "id": "5515485646",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal"
+        ],
+        "display_name": "Montréal, Québec"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5515485646?utm_medium=api&utm_source=542c51d7",
+      "company": {
+        "display_name": "CN Rail",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-26T18:18:35Z",
+      "contract_time": "full_time",
+      "category": {
+        "label": "Engineering Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs"
+      },
+      "latitude": 45.544959,
+      "description": "At CN, we are committed to our pursuit ofexcellence. We take pride in delivering work of the highest standard,continually innovating to shape the railroad of the future. As responsiblerailroaders, we make the right decisions every time, putting safety first,acting with unwavering integrity, and holding ourselves accountable for ouractions. We believe in succeeding together-by fostering inclusivity andcollaboration, we sustainably deliver exceptional results for ourcustomers. We welcome students…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNTQ4NTY0NiIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.T5vlARoaDBVBt_QX3nFLsOZlGlNpvyoNRCKZuV4-kTc",
+      "title": "Intern, Data Engineer (Solution Integration)",
+      "contract_type": "contract",
+      "longitude": -73.588138
+    },
+    {
+      "company": {
+        "display_name": "Canadian National Railway Company",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5514677775?utm_medium=api&utm_source=542c51d7",
+      "created": "2025-11-26T12:01:17Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5514677775",
+      "contract_type": "contract",
+      "title": "Intern, Data Engineer (Solution Integration)",
+      "description": "At CN, we are committed to our pursuit of excellence. We take pride in delivering work of the highest standard, continually innovating to shape the railroad of the future. As responsible railroaders, we make the right decisions every time, putting safety first, acting with unwavering integrity, and holding ourselves accountable for our actions. We believe in succeeding together—by fostering inclusivity and collaboration, we sustainably deliver exceptional results for our customers. We welcome s…",
+      "category": {
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "contract_time": "full_time",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNDY3Nzc3NSIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.UPgWwNS80NrW50TOaZW83XabYJkSMrtuSLFQBWys938"
+    },
+    {
+      "title": "Data and AI Platforms Engineer Intern",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "contract_time": "full_time",
+      "latitude": 43.706102,
+      "description": "Your work days are brighter here. We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthus…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Canada Workday ULC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5532579866",
+      "salary_is_predicted": "0",
+      "longitude": -79.402726,
+      "contract_type": "contract",
+      "salary_min": 52300,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjU3OTg2NiIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.8rqsPq3kElQEkb5Bds4lE99gFDao4Y0CJOzNh7DywHk",
+      "salary_max": 113700,
+      "created": "2025-12-07T12:27:15Z",
+      "redirect_url": "https://www.adzuna.ca/details/5532579866?utm_medium=api&utm_source=542c51d7",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "latitude": 45.448835,
+      "description": "When applicable, Bombardier promotes flexible and hybrid work policies. Why join us? At Bombardier, we design, build and maintain the world’s peak-performing aircraft for the world’s most discerning people and businesses, governments and militaries. We have been successful in setting the highest standards by putting our people at the heart of it all, and defining excellence, together. Working at Bombardier means operating at the highest level. Every day, you are part of a team that delivers sup…",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0NDYwODk5MyIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.G4a14wS4nZDZuzEmA1_0kT-t7Je1U-7tZmCVywoVHgo",
+      "title": "Data Scientist",
+      "longitude": -73.754293,
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Dorval, Montréal",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal",
+          "Dorval"
+        ]
+      },
+      "id": "5544608993",
+      "company": {
+        "display_name": "Bombardier",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5544608993?utm_medium=api&utm_source=542c51d7",
+      "created": "2025-12-16T14:12:51Z",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "company": {
+        "display_name": "Amazon",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/details/5510693899?utm_medium=api&utm_source=542c51d7",
+      "created": "2025-11-23T17:15:56Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Vancouver, Greater Vancouver",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver",
+          "Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5510693899",
+      "title": "Manager, Software Development, Marketing Incrementality Measurement",
+      "longitude": -123.108651,
+      "latitude": 49.252255,
+      "description": "Description Do you have a passion for owning large, cross-organizational products that impact real-world decisions? Are you looking for an opportunity to join a team that has a global and cross-Amazon scope? If yes, we are looking for somebody with your enthusiasm and skills to join our team. We are a central analytics team that owns Amazon’s measurement of marketing incrementality for on-Amazon and off-Amazon investments, including data collection, analytics, and machine learning approaches. W…",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxMDY5Mzg5OSIsInMiOiIxczZJZ3VIYThCR3VkWjlSZml0ZFNnIn0.8zA0FYCLN683v1ObyEVoHVQQ_dSzq5yxxQTkHCu2PJo"
+    }
+  ],
+  "count": 12
+}
