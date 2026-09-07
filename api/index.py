@@ -10,28 +10,64 @@ Run locally from the repo root:
 Routes are prefixed /api so the path is identical in both places:
     local  http://localhost:8000/api/search
     prod   https://<project>.vercel.app/api/search
+
+Nothing here touches the network or the environment at import time. A bad
+config makes a request return a readable 503; it must never crash the module,
+because a module that fails to import gives Vercel nothing to report but
+FUNCTION_INVOCATION_FAILED.
 """
 
 import os
+import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
-from supabase import create_client
+from supabase import Client, create_client
 
 # Local dev reads ETL/.env. On Vercel there is no .env file - the variables
 # come from the project's environment settings - so this quietly does nothing.
 load_dotenv(Path(__file__).resolve().parent.parent / "ETL" / ".env")
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 
-if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
-    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY")
+def _env(name: str) -> str:
+    """
+    Read a variable, tolerating whitespace.
 
-supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+    `KEY = value` in a .env file, or a value pasted into a dashboard field
+    with a stray leading space, both arrive here with padding that would
+    otherwise produce a malformed URL or a key that fails to authenticate.
+    """
+    return (os.getenv(name) or "").strip()
+
+
+_client: Client | None = None
+
+
+def db() -> Client:
+    """
+    Build the Supabase client on first use and reuse it afterwards.
+
+    Lazy on purpose: a serverless container is reused across requests, so
+    this cost is paid once per cold start, and a missing variable surfaces
+    as a 503 on a request rather than an import-time crash.
+    """
+    global _client
+    if _client is None:
+        url, key = _env("SUPABASE_URL"), _env("SUPABASE_SERVICE_ROLE_KEY")
+        if not url or not key:
+            raise HTTPException(
+                status_code=503,
+                detail="Server is missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY.",
+            )
+        try:
+            _client = create_client(url, key)
+        except Exception as e:
+            raise HTTPException(status_code=503, detail=f"Could not reach Supabase: {e}")
+    return _client
+
 
 app = FastAPI(title="Tech Skills API")
 
@@ -59,7 +95,26 @@ class SearchRequest(BaseModel):
 
 @app.get("/api/health")
 def health():
-    return {"ok": True}
+    """
+    Deployment diagnostics. Reports the shape of the config, never its values,
+    so it is safe to hit from a browser on a public URL.
+    """
+    url = _env("SUPABASE_URL")
+    key = _env("SUPABASE_SERVICE_ROLE_KEY")
+    raw_url = os.getenv("SUPABASE_URL") or ""
+
+    return {
+        "ok": True,
+        "python": sys.version.split()[0],
+        "supabase_url_set": bool(url),
+        "supabase_url_looks_valid": url.startswith("https://") and url.endswith(".supabase.co"),
+        # True means the pasted value carried stray whitespace - the usual
+        # cause of a URL that looks right in the dashboard but will not parse.
+        "supabase_url_had_whitespace": raw_url != raw_url.strip(),
+        "service_key_set": bool(key),
+        "service_key_length": len(key),
+        "allowed_origins": ALLOWED_ORIGINS,
+    }
 
 
 @app.get("/api/stats")
@@ -72,7 +127,9 @@ def stats():
     depend on it.
     """
     try:
-        rows = supabase.rpc("corpus_stats", {}).execute().data or []
+        rows = db().rpc("corpus_stats", {}).execute().data or []
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=503, detail=f"corpus_stats() unavailable: {e}")
 
@@ -90,7 +147,12 @@ def run_search(req: SearchRequest):
     No fetching happens here. The Greenhouse corpus is loaded offline by the
     daily GitHub Actions run, so this is one grouped query.
     """
-    rows = supabase.rpc("search_skills", {"term": req.search_term}).execute().data or []
+    try:
+        rows = db().rpc("search_skills", {"term": req.search_term}).execute().data or []
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"search_skills() failed: {e}")
 
     return {
         "search_term": req.search_term,
