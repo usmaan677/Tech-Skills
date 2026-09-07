@@ -1,0 +1,75 @@
+name: Daily Greenhouse ingest
+
+on:
+  schedule:
+    # 11:17 UTC daily. Deliberately off the hour: GitHub's scheduler is
+    # busiest on the hour and delays jobs queued there. UTC does not observe
+    # DST, so this is 07:17 Eastern in summer and 06:17 in winter.
+    - cron: "17 11 * * *"
+
+  # Lets you run it by hand from the Actions tab. Test with this, don't wait
+  # a day to find out the secrets are wrong.
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    # The fetch hits 41 boards and the load writes ~6,200 rows; a normal run
+    # is 3-6 minutes. This kills a hung run rather than burning Actions
+    # minutes until the 6-hour default.
+    timeout-minutes: 20
+
+    # A slow run must not overlap tomorrow's: both would rebuild job_skills
+    # for the same rows at once.
+    concurrency:
+      group: greenhouse-ingest
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # matches the Vercel runtime
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Greenhouse boards
+        working-directory: ETL
+        run: python fetch_greenhouse.py
+
+      # Must be a separate step but the SAME job: the two scripts talk to each
+      # other through data/raw/ on the runner's disk, which exists only for
+      # the life of this job.
+      - name: Load into Supabase
+        working-directory: ETL
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python load_jobs.py
+
+      # The runner is wiped after this job, so without this the raw pull is
+      # gone. Keeps a dated snapshot you could use for trend analysis later.
+      # Safe to delete this step if you don't want them.
+      - name: Archive the raw pull
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: greenhouse-raw-${{ github.run_id }}
+          path: ETL/data/raw/greenhouse_jobs_*.json
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Greenhouse ingest" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: **${{ job.status }}**" >> "$GITHUB_STEP_SUMMARY"
+          for f in ETL/data/raw/greenhouse_jobs_*.json; do
+            [ -e "$f" ] || continue
+            echo "- \`$(basename "$f")\` — $(du -h "$f" | cut -f1)" >> "$GITHUB_STEP_SUMMARY"
+          done
