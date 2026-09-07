@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import Counter
 from supabase import create_client
+import re
 
 import requests
 from dotenv import load_dotenv
@@ -17,9 +18,9 @@ supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
 ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID")
 ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY")
 
-BASE_URL = "https://api.adzuna.com/v1/api/jobs/ca/search"
+BASE_URL = "https://api.adzuna.com/v1/api/jobs"
 
-def fetch_jobs(page = 1, what = "software engineer", results_per_page = 50,):
+def fetch_jobs(page = 1, what = "software engineer", results_per_page = 50, country="ca"):
     params = {
         "app_id": ADZUNA_APP_ID,
         "app_key": ADZUNA_APP_KEY,
@@ -28,7 +29,7 @@ def fetch_jobs(page = 1, what = "software engineer", results_per_page = 50,):
         "content-type": "application/json"
     }
 
-    url = f"{BASE_URL}/{page}"
+    url = f"{BASE_URL}/{country}/search/{page}"
     resp = requests.get(url, params=params, timeout=15)
 
     if resp.status_code != 200:
@@ -95,61 +96,194 @@ def save_raw_results(data, search_term):
     
 
 SKILL_KEYWORDS = {
-    "python": ["python", "py"],
+
+    # =====================
+    # Programming Languages
+    # =====================
+    "python": ["python"],
     "java": ["java"],
-    "javascript": ["javascript", "js", "ecmascript"],
+    "javascript": ["javascript", "ecmascript", "js"],
     "typescript": ["typescript", "ts"],
     "c++": ["c++", "cpp"],
     "c#": ["c#", "c-sharp", "c sharp"],
-    "go": ["go", "golang"],
+    "go": ["golang", "go"],
     "rust": ["rust"],
+    "scala": ["scala"],
+    "kotlin": ["kotlin"],
+    "swift": ["swift"],
+    "r": ["r language", "r programming"],
+    "matlab": ["matlab"],
+    "bash": ["bash", "shell scripting"],
+    "powershell": ["powershell"],
 
+    # =====================
+    # Frontend
+    # =====================
     "react": ["react", "reactjs", "react.js"],
-    "angular": ["angular", "angularjs", "angular.js"],
-    "vue": ["vue", "vuejs", "vue.js"],
-    "node": ["node", "nodejs", "node.js"],
-    "express": ["express", "expressjs", "express.js"],
-    "spring": ["spring", "springboot", "spring boot"],
-    "django": ["django"],
-    "flask": ["flask"],
+    "nextjs": ["next.js", "nextjs"],
+    "angular": ["angular", "angularjs"],
+    "vue": ["vue", "vuejs"],
+    "svelte": ["svelte"],
+    "html": ["html", "html5"],
+    "css": ["css", "css3"],
+    "tailwind": ["tailwind", "tailwindcss"],
+    "bootstrap": ["bootstrap"],
+    "mui": ["material ui", "mui"],
 
+    # =====================
+    # Backend / APIs
+    # =====================
+    "node": ["node", "nodejs", "node.js"],
+    "express": ["express", "expressjs"],
+    "fastapi": ["fastapi"],
+    "flask": ["flask"],
+    "django": ["django"],
+    "spring": ["spring", "spring boot", "springboot"],
+    "dotnet": [".net", "dotnet"],
+    "nestjs": ["nestjs"],
+    "graphql": ["graphql"],
+    "rest": ["rest", "rest api", "restful"],
+    "grpc": ["grpc"],
+
+    # =====================
+    # Databases
+    # =====================
     "sql": ["sql"],
-    "postgres": ["postgres", "postgresql", "psql"],
+    "postgres": ["postgres", "postgresql"],
     "mysql": ["mysql"],
+    "sqlite": ["sqlite"],
     "mongodb": ["mongodb", "mongo"],
     "redis": ["redis"],
+    "dynamodb": ["dynamodb"],
+    "cassandra": ["cassandra"],
+    "elasticsearch": ["elasticsearch"],
+    "neo4j": ["neo4j"],
 
+    # =====================
+    # Data / Analytics
+    # =====================
+    "pandas": ["pandas"],
+    "numpy": ["numpy"],
+    "scipy": ["scipy"],
+    "matplotlib": ["matplotlib"],
+    "seaborn": ["seaborn"],
+    "plotly": ["plotly"],
+    "jupyter": ["jupyter", "jupyter notebook"],
+    "excel": ["excel"],
+    "tableau": ["tableau"],
+    "powerbi": ["power bi", "powerbi"],
+    "looker": ["looker"],
+
+    # =====================
+    # Big Data / Streaming
+    # =====================
+    "spark": ["spark", "apache spark"],
+    "pyspark": ["pyspark"],
+    "hadoop": ["hadoop"],
+    "hive": ["hive"],
+    "kafka": ["kafka", "apache kafka"],
+    "airflow": ["airflow", "apache airflow"],
+    "dbt": ["dbt"],
+    "snowflake": ["snowflake"],
+    "redshift": ["redshift"],
+    "bigquery": ["bigquery"],
+    "databricks": ["databricks"],
+
+    # =====================
+    # ML / AI
+    # =====================
+    "machine learning": ["machine learning", "ml"],
+    "deep learning": ["deep learning"],
+    "tensorflow": ["tensorflow"],
+    "pytorch": ["pytorch"],
+    "scikit-learn": ["scikit-learn", "sklearn"],
+    "xgboost": ["xgboost"],
+    "nlp": ["nlp", "natural language processing"],
+    "computer vision": ["computer vision"],
+    "llm": ["llm", "large language model"],
+    "rag": ["rag", "retrieval augmented generation"],
+    "openai": ["openai"],
+    "huggingface": ["hugging face", "huggingface"],
+
+    # =====================
+    # Cloud Platforms
+    # =====================
     "aws": ["aws", "amazon web services"],
     "azure": ["azure", "microsoft azure"],
-    "gcp": ["gcp", "google cloud", "google cloud platform"],
+    "gcp": ["gcp", "google cloud"],
+    "firebase": ["firebase"],
+    "supabase": ["supabase"],
+
+    # =====================
+    # DevOps / Infra
+    # =====================
     "docker": ["docker"],
     "kubernetes": ["kubernetes", "k8s"],
+    "terraform": ["terraform"],
+    "ansible": ["ansible"],
+    "ci/cd": ["ci/cd", "continuous integration", "continuous deployment"],
+    "github actions": ["github actions"],
+    "jenkins": ["jenkins"],
+    "gitlab ci": ["gitlab ci"],
+    "linux": ["linux"],
+    "nginx": ["nginx"],
 
-    "spa": ["spa", "single page application"],
+    # =====================
+    # Testing / Quality
+    # =====================
+    "unit testing": ["unit testing"],
+    "integration testing": ["integration testing"],
+    "pytest": ["pytest"],
+    "jest": ["jest"],
+    "cypress": ["cypress"],
+    "selenium": ["selenium"],
+
+    # =====================
+    # Architecture / Concepts
+    # =====================
     "microservices": ["microservices", "microservice"],
-    "rest": ["rest", "restful", "rest api"],
-    "graphql": ["graphql", "graph ql"],
+    "monolith": ["monolith"],
+    "event-driven": ["event-driven", "event driven"],
+    "distributed systems": ["distributed systems"],
+    "system design": ["system design"],
+    "scalability": ["scalability", "scalable"],
+    "high availability": ["high availability"],
+    "fault tolerance": ["fault tolerant", "fault tolerance"],
+    "api design": ["api design"],
+    "data pipelines": ["data pipeline", "etl", "elt"],
+    "data warehousing": ["data warehouse", "data warehousing"],
 
-    "pandas": ["pandas"],
-    "numpy": ["numpy", "np"],
-    "pyspark": ["pyspark"],
-    "spark": ["spark", "apache spark"],
-    "hadoop": ["hadoop", "apache hadoop"],
+    # =====================
+    # Security
+    # =====================
+    "authentication": ["authentication", "auth"],
+    "authorization": ["authorization"],
+    "oauth": ["oauth", "oauth2"],
+    "jwt": ["jwt", "json web token"],
+    "encryption": ["encryption"],
 }
 
 
-def extract_skills_from_description(description, skills= SKILL_KEYWORDS):
-    if not description:
-        return[]
-    
-    text = description.lower()
-    found = set()
+BOUNDARY = r"[A-Za-z0-9_+#]"
+SKILL_PATTERNS = {}
 
-    for skill, variants in skills.items():
-        for v in variants:
-            if v in text:
-                found.add(skill)
-                break
+for skill, variants in SKILL_KEYWORDS.items():   # ← the OUTER for
+    compiled = []
+    for v in variants:                           # ← the INNER for
+        pattern_text = rf"(?<!{BOUNDARY}){re.escape(v)}(?!{BOUNDARY})"
+        compiled.append(re.compile(pattern_text, re.IGNORECASE))
+    SKILL_PATTERNS[skill] = compiled
+
+
+def extract_skills_from_description(description, patterns=SKILL_PATTERNS):
+    if not description:
+        return []
+
+    found = set()
+    for skill, pats in patterns.items():
+        if any(p.search(description) for p in pats):
+            found.add(skill)
+
     return sorted(found)
 
 def normalize_job(raw_job):
@@ -187,10 +321,25 @@ def main():
     
     search_term = "software engineer intern"
     country = "ca"
-    page = 1
+    
+    all_results = []
+    num_pages = 3
+    
+    for i in range(num_pages):
+        page = 1 + i
+        print(f"Fetching page {page}...")
+        try:
+            data = fetch_jobs(page=page, what=search_term, results_per_page=100, country=country)
+            results = data.get("results", [])
+            all_results.extend(results)
+            if len(results) < 100:
+                break
+        except Exception as e:
+            print(f"Error on page {page}: {e}")
+            break
 
-    data = fetch_jobs(page =page, what=search_term, results_per_page=50)
-    raw_filename = save_raw_results(data,search_term)
+    combined_data = {"results": all_results}
+    raw_filename = save_raw_results(combined_data, search_term)
 
     timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     processed_filename = f"data/processed/parsed_jobs_{timestamp}.json"
@@ -199,9 +348,7 @@ def main():
     search_id = create_job_search(search_term, country)
     upsert_search_skill_counts(search_id, normalized_jobs)
 
-    
-
-    results = data.get("results",[])
+    print(f"Done. Processed {len(all_results)} jobs.")
 
 if __name__ == "__main__":
     main()
