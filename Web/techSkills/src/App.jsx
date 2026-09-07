@@ -1,299 +1,238 @@
-import { useMemo, useState } from "react";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  Cell,
-} from "recharts";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { searchSkills, getCorpusStats, ApiError } from "./lib/api.js";
 
-const API_BASE = import.meta.env.VITE_API_BASE;
+const SUGGESTIONS = ["software engineer", "data analyst", "data scientist", "product designer"];
 
-const CustomTooltip = ({ active, payload }) => {
-  if (!active || !payload?.length) return null;
-  return (
-    <div style={{
-      background: "#fff",
-      border: "1px solid #e5e7eb",
-      borderRadius: 8,
-      padding: "6px 12px",
-      fontSize: 13,
-      color: "#111",
-      boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
-    }}>
-      <span style={{ fontWeight: 600 }}>{payload[0].payload.skill}</span>
-      <span style={{ color: "#6b7280", marginLeft: 10 }}>{payload[0].value} jobs</span>
-    </div>
-  );
-};
+const nf = new Intl.NumberFormat("en-US");
 
 export default function App() {
-  const [term, setTerm] = useState("software engineer intern");
-  const [country, setCountry] = useState("ca");
-  const [loading, setLoading] = useState(false);
-  const [searchId, setSearchId] = useState(null);
-  const [rows, setRows] = useState([]);
-  const [error, setError] = useState("");
+  const [term, setTerm] = useState("data analyst");
+  const [result, setResult] = useState(null);
+  const [status, setStatus] = useState("idle"); // idle | loading | ready | error
+  const [error, setError] = useState(null);
+  const [corpus, setCorpus] = useState(null);
 
-  const topChartData = useMemo(() =>
-    [...rows]
-      .sort((a, b) => (b.count ?? 0) - (a.count ?? 0))
-      .slice(0, 12)
-      .map((r) => ({ skill: r.skill, count: r.count })),
-    [rows]
-  );
+  // Holds the in-flight search so a newer one can cancel it. Without this two
+  // quick searches can resolve out of order and paint the wrong results.
+  const inFlight = useRef(null);
 
-  const sortedRows = useMemo(
-    () => [...rows].sort((a, b) => b.count - a.count),
-    [rows]
-  );
+  useEffect(() => {
+    const ctrl = new AbortController();
+    getCorpusStats({ signal: ctrl.signal })
+      .then(setCorpus)
+      .catch(() => {}); // masthead detail only; never block the page on it
+    return () => ctrl.abort();
+  }, []);
 
-  const maxCount = sortedRows[0]?.count ?? 1;
+  const runSearch = useCallback(async (raw) => {
+    const query = raw.trim();
+    if (query.length < 2) return;
 
-  async function runPipeline() {
-    setError("");
-    setLoading(true);
-    setRows([]);
-    setSearchId(null);
+    inFlight.current?.abort();
+    const ctrl = new AbortController();
+    inFlight.current = ctrl;
+
+    setStatus("loading");
+    setError(null);
+
     try {
-      const resp = await fetch(`${API_BASE}/search`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ search_term: term, country }),
-      });
-      if (!resp.ok) throw new Error(`Backend error: ${resp.status} ${await resp.text()}`);
-      const data = await resp.json();
-      if (data.search_id) setSearchId(data.search_id);
-      setRows(data.skills || []);
-    } catch (e) {
-      setError(e?.message || "Something went wrong");
-    } finally {
-      setLoading(false);
+      const data = await searchSkills(query, { signal: ctrl.signal });
+      setResult({ ...data, search_term: query });
+      setStatus("ready");
+    } catch (err) {
+      if (err?.name === "AbortError") return; // superseded by a newer search
+      setError(err instanceof ApiError ? err : new ApiError("Something went wrong.", 0));
+      setResult(null);
+      setStatus("error");
     }
-  }
+  }, []);
+
+  useEffect(() => () => inFlight.current?.abort(), []);
+
+  // Coverage, not raw count: share of matched postings that mention the skill.
+  const ranked = useMemo(() => {
+    if (!result?.skills?.length) return [];
+    const denominator = result.job_count || 0;
+    return [...result.skills]
+      .sort((a, b) => b.count - a.count)
+      .map((r) => ({
+        skill: r.skill,
+        count: r.count,
+        share: denominator ? r.count / denominator : 0,
+      }));
+  }, [result]);
+
+  const loading = status === "loading";
 
   return (
-    <div style={{ fontFamily: "'Inter', sans-serif", minHeight: "100vh", background: "#f9fafb", color: "#111827" }}>
+    <div className="shell">
+      <header className="masthead">
+        <h1 className="masthead__name">Tech Skills Pulse</h1>
+        {corpus?.job_count ? (
+          <p className="masthead__corpus">
+            {nf.format(corpus.job_count)} openings from {nf.format(corpus.company_count)} companies
+          </p>
+        ) : null}
+      </header>
 
-      {/* Sidebar + main layout */}
-      <div style={{ display: "flex", minHeight: "100vh" }}>
+      <form
+        className="search"
+        onSubmit={(e) => {
+          e.preventDefault();
+          runSearch(term);
+        }}
+      >
+        <label className="visually-hidden" htmlFor="role">
+          Job title to search
+        </label>
+        <input
+          id="role"
+          className="search__input"
+          value={term}
+          onChange={(e) => setTerm(e.target.value)}
+          placeholder="data analyst"
+          autoComplete="off"
+          spellCheck="false"
+        />
+        <button className="search__submit" type="submit" disabled={loading || term.trim().length < 2}>
+          {loading ? "Searching" : "Search"}
+        </button>
+      </form>
 
-        {/* Sidebar */}
-        <aside style={{
-          width: 240,
-          flexShrink: 0,
-          background: "#111827",
-          color: "#f9fafb",
-          padding: "36px 24px",
-          display: "flex",
-          flexDirection: "column",
-          gap: 32,
-        }}>
-          <div>
-            <div style={{ fontSize: 18, fontWeight: 700, letterSpacing: "-0.3px", color: "#fff" }}>
-              Tech Skills Pulse
-            </div>
-            <div style={{ fontSize: 13, color: "#6b7280", marginTop: 6, lineHeight: 1.5 }}>
-              What skills do jobs actually ask for?
-            </div>
-          </div>
+      <div aria-live="polite">
+        {status === "idle" && <Idle onPick={(s) => { setTerm(s); runSearch(s); }} />}
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", color: "#4b5563" }}>
-              Search
-            </div>
+        {status === "error" && <Failure error={error} />}
 
-            <div>
-              <label style={{ fontSize: 12, color: "#9ca3af", display: "block", marginBottom: 6 }}>Role</label>
-              <input
-                value={term}
-                onChange={(e) => setTerm(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && term.trim() && !loading && runPipeline()}
-                placeholder="e.g. data engineer"
-                style={{
-                  width: "100%",
-                  boxSizing: "border-box",
-                  background: "#1f2937",
-                  border: "1px solid #374151",
-                  borderRadius: 8,
-                  padding: "9px 12px",
-                  fontSize: 13,
-                  color: "#f3f4f6",
-                  outline: "none",
-                }}
-              />
-            </div>
+        {status === "ready" && result.job_count === 0 && (
+          <Empty term={result.search_term} onPick={(s) => { setTerm(s); runSearch(s); }} />
+        )}
 
-            <div>
-              <label style={{ fontSize: 12, color: "#9ca3af", display: "block", marginBottom: 6 }}>Country</label>
-              <select
-                value={country}
-                onChange={(e) => setCountry(e.target.value)}
-                style={{
-                  width: "100%",
-                  boxSizing: "border-box",
-                  background: "#1f2937",
-                  border: "1px solid #374151",
-                  borderRadius: 8,
-                  padding: "9px 12px",
-                  fontSize: 13,
-                  color: "#f3f4f6",
-                  outline: "none",
-                }}
-              >
-                <option value="ca">Canada</option>
-                <option value="us">USA</option>
-                <option value="gb">UK</option>
-                <option value="au">Australia</option>
-                <option value="in">India</option>
-                <option value="de">Germany</option>
-                <option value="fr">France</option>
-              </select>
-            </div>
-
-            <button
-              onClick={runPipeline}
-              disabled={loading || !term.trim()}
-              style={{
-                marginTop: 4,
-                background: loading || !term.trim() ? "#374151" : "#fff",
-                color: loading || !term.trim() ? "#6b7280" : "#111827",
-                border: "none",
-                borderRadius: 8,
-                padding: "10px 0",
-                fontFamily: "inherit",
-                fontSize: 13,
-                fontWeight: 600,
-                cursor: loading || !term.trim() ? "not-allowed" : "pointer",
-                width: "100%",
-                transition: "background 0.15s",
-              }}
-            >
-              {loading ? "Running…" : "Run"}
-            </button>
-          </div>
-
-          {searchId && (
-            <div style={{ fontSize: 11, color: "#4b5563", marginTop: "auto" }}>
-              Search #{String(searchId)}
-            </div>
-          )}
-        </aside>
-
-        {/* Main content */}
-        <main style={{ flex: 1, padding: "40px 40px", overflowY: "auto" }}>
-
-          {error && (
-            <div style={{
-              background: "#fef2f2",
-              border: "1px solid #fecaca",
-              borderRadius: 8,
-              padding: "12px 16px",
-              fontSize: 13,
-              color: "#b91c1c",
-              marginBottom: 24,
-            }}>
-              {error}
-            </div>
-          )}
-
-          {rows.length === 0 && !error ? (
-            <div style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              height: "60vh",
-              color: "#9ca3af",
-              fontSize: 14,
-              gap: 12,
-              textAlign: "center",
-            }}>
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zm6.75-9.75C9.75 2.754 10.254 2.25 10.875 2.25h2.25c.621 0 1.125.504 1.125 1.125v16.5c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 019.75 19.875V3.375zm6.75 5.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v10.875c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 0116.5 19.875V9z" />
-              </svg>
-              <div>Run a search to see results</div>
-            </div>
-          ) : (
-            <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
-
-              {/* Chart */}
-              <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #e5e7eb", padding: "28px 28px 16px" }}>
-                <div style={{ fontSize: 13, fontWeight: 600, color: "#374151", marginBottom: 4 }}>Top 12 Skills</div>
-                <div style={{ fontSize: 12, color: "#9ca3af", marginBottom: 24 }}>By frequency in job descriptions</div>
-                <div style={{ height: 280 }}>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={topChartData} margin={{ top: 4, right: 8, left: -16, bottom: 48 }}>
-                      <XAxis
-                        dataKey="skill"
-                        tick={{ fontSize: 11, fill: "#9ca3af", fontFamily: "Inter, sans-serif" }}
-                        interval={0}
-                        angle={-35}
-                        textAnchor="end"
-                        height={60}
-                        axisLine={{ stroke: "#f3f4f6" }}
-                        tickLine={false}
-                      />
-                      <YAxis
-                        tick={{ fontSize: 11, fill: "#d1d5db", fontFamily: "Inter, sans-serif" }}
-                        axisLine={false}
-                        tickLine={false}
-                      />
-                      <Tooltip content={<CustomTooltip />} cursor={{ fill: "#f9fafb" }} />
-                      <Bar dataKey="count" radius={[4, 4, 0, 0]} maxBarSize={40}>
-                        {topChartData.map((_, i) => (
-                          <Cell key={i} fill={i === 0 ? "#111827" : "#e5e7eb"} />
-                        ))}
-                      </Bar>
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-              </div>
-
-              {/* Table */}
-              <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #e5e7eb", overflow: "hidden" }}>
-                <div style={{ padding: "20px 24px 16px", borderBottom: "1px solid #f3f4f6" }}>
-                  <span style={{ fontSize: 13, fontWeight: 600, color: "#374151" }}>All Skills</span>
-                  <span style={{ fontSize: 12, color: "#9ca3af", marginLeft: 8 }}>{sortedRows.length} extracted</span>
-                </div>
-                <div style={{ overflowY: "auto", maxHeight: 360 }}>
-                  <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
-                    <thead>
-                      <tr style={{ borderBottom: "1px solid #f3f4f6" }}>
-                        <th style={{ padding: "10px 24px", textAlign: "left", fontSize: 11, fontWeight: 500, color: "#9ca3af", width: 32 }}>#</th>
-                        <th style={{ padding: "10px 24px", textAlign: "left", fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>Skill</th>
-                        <th style={{ padding: "10px 24px", textAlign: "right", fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>Jobs</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {sortedRows.map((r, idx) => (
-                        <tr key={idx} style={{ borderTop: "1px solid #f9fafb" }}
-                          onMouseEnter={e => e.currentTarget.style.background = "#f9fafb"}
-                          onMouseLeave={e => e.currentTarget.style.background = "transparent"}
-                        >
-                          <td style={{ padding: "10px 24px", color: "#d1d5db", fontVariantNumeric: "tabular-nums" }}>{idx + 1}</td>
-                          <td style={{ padding: "10px 24px", color: "#111827", fontWeight: 500 }}>{r.skill}</td>
-                          <td style={{ padding: "10px 24px", textAlign: "right" }}>
-                            <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 10 }}>
-                              <div style={{ width: 60, height: 4, background: "#f3f4f6", borderRadius: 4, overflow: "hidden" }}>
-                                <div style={{ height: "100%", width: `${Math.round((r.count / maxCount) * 100)}%`, background: "#111827", borderRadius: 4 }} />
-                              </div>
-                              <span style={{ color: "#6b7280", fontVariantNumeric: "tabular-nums", minWidth: 20, textAlign: "right" }}>{r.count}</span>
-                            </div>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-            </div>
-          )}
-        </main>
+        {status === "ready" && result.job_count > 0 && (
+          <Results result={result} ranked={ranked} corpus={corpus} />
+        )}
       </div>
+    </div>
+  );
+}
+
+function Results({ result, ranked, corpus }) {
+  const total = corpus?.job_count;
+
+  return (
+    <>
+      <p className="lede">
+        {nf.format(result.job_count)}
+        {total ? ` of ${nf.format(total)}` : ""} openings match &ldquo;{result.search_term}&rdquo;.
+      </p>
+      <p className="lede__note">
+        Each bar is the share of those descriptions that mention the skill. The empty
+        remainder is postings that never asked for it.
+      </p>
+
+      {/* Keyed on the term so the bars re-run their entrance on a new search. */}
+      <section className="field" key={result.search_term}>
+        <div className="field__head">
+          <span />
+          <span>Skill</span>
+          <span>Coverage</span>
+          <span className="field__nums">
+            <span>Share</span>
+            <span>Jobs</span>
+          </span>
+        </div>
+
+        <ol className="field__list">
+          {ranked.map((row, i) => (
+            <li className="row" key={row.skill}>
+              <span className="row__rank">{i + 1}</span>
+              <span className="row__skill">{row.skill}</span>
+              <span className="row__track" aria-hidden="true">
+                <span
+                  className="row__fill"
+                  style={{ "--w": `${row.share * 100}%`, "--i": i }}
+                />
+              </span>
+              <span className="row__nums">
+                <span>{Math.round(row.share * 100)}%</span>
+                <span className="row__count">{row.count}</span>
+              </span>
+            </li>
+          ))}
+        </ol>
+
+        <div className="field__scale" aria-hidden="true">
+          <span className="field__ticks">
+            {[0, 25, 50, 75].map((t) => (
+              <span key={t} style={{ "--p": `${t}%` }}>{t}</span>
+            ))}
+            <span style={{ "--p": "100%" }}>100%</span>
+          </span>
+        </div>
+      </section>
+
+      <p className="method">
+        Skills are matched against a fixed vocabulary using word-boundary patterns, so
+        &ldquo;R&rdquo; does not match &ldquo;R&amp;D&rdquo;. Postings are deduplicated by title and
+        company first, so a role listed in nineteen cities counts once.
+      </p>
+    </>
+  );
+}
+
+function Idle({ onPick }) {
+  return (
+    <div className="state">
+      <h2 className="state__title">Search a role to see what its postings ask for.</h2>
+      <p className="state__body">
+        Every job description in the corpus is scanned for technical skills. Search a
+        title and you get the skills those postings mention, ranked by how many of them
+        mention it.
+      </p>
+      <Suggestions onPick={onPick} />
+    </div>
+  );
+}
+
+function Empty({ term, onPick }) {
+  return (
+    <div className="state">
+      <h2 className="state__title">No openings match &ldquo;{term}&rdquo;.</h2>
+      <p className="state__body">
+        Titles are matched as written, so a broader one usually helps &mdash; &ldquo;analyst&rdquo;
+        rather than &ldquo;senior analyst II&rdquo;.
+      </p>
+      <Suggestions onPick={onPick} />
+    </div>
+  );
+}
+
+function Suggestions({ onPick }) {
+  return (
+    <ul className="suggest">
+      {SUGGESTIONS.map((s) => (
+        <li key={s}>
+          <button type="button" className="suggest__btn" onClick={() => onPick(s)}>
+            {s}
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Failure({ error }) {
+  const unreachable = error?.status === 0;
+
+  return (
+    <div className="state state--error">
+      <h2 className="state__title">
+        {unreachable ? "The API isn't responding." : "That search failed."}
+      </h2>
+      <p className="state__body">{error?.message}</p>
+      {unreachable && (
+        <p className="state__hint">cd ETL &amp;&amp; uvicorn main:app --reload --port 8000</p>
+      )}
     </div>
   );
 }

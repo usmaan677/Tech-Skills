@@ -1,1 +1,367 @@
-@import "tailwindcss";
+/* ==========================================================================
+   Tech Skills Pulse — design tokens + component styles
+   Plain CSS with custom properties. Tailwind was removed: it was declared in
+   vite.config.js but never installed, and no component used a utility class.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* Paper-and-ink ground. Cool and slightly green, deliberately not cream. */
+  --paper:      #eff0ea;
+  --panel:      #fafbf7;
+  --ink:        #171a17;
+  --muted:      #666d63;
+  --rule:       #d7d9d0;
+  --rule-soft:  #e4e6de;
+
+  /* The single saturated colour. Reserved for data marks — never chrome. */
+  --mark:       #1b3fa0;
+  --mark-tint:  #dde3f3;
+
+  /* Failure states only. */
+  --flag:       #8f312b;
+  --flag-tint:  #f4e6e4;
+
+  --t-micro: 0.72rem;
+  --t-sm:    0.8125rem;
+  --t-body:  0.9375rem;
+  --t-lede:  1.1875rem;
+  --t-lg:    1.5rem;
+
+  --sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --gutter: clamp(1.25rem, 5vw, 3rem);
+  --shell:  60rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: var(--t-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mark);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* --- shell ---------------------------------------------------------------- */
+
+.shell {
+  max-width: var(--shell);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 5rem;
+}
+
+/* --- masthead ------------------------------------------------------------- */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 2.25rem 0 1rem;
+}
+
+.masthead__name {
+  margin: 0;
+  font-size: var(--t-body);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+.masthead__corpus {
+  font-size: var(--t-sm);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- search --------------------------------------------------------------- */
+
+.search {
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.5rem 0;
+}
+
+/* A ruled field rather than a rounded box — it belongs to the document,
+   not to a settings panel. */
+.search__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font-family: var(--mono);
+  font-size: var(--t-lede);
+  color: var(--ink);
+  padding: 0.5rem 0.125rem;
+  border-bottom: 2px solid transparent;
+}
+
+.search__input::placeholder { color: #a2a89e; }
+.search__input:focus { outline: none; border-bottom-color: var(--mark); }
+
+.search__submit {
+  flex: 0 0 auto;
+  align-self: center;
+  font-family: inherit;
+  font-size: var(--t-sm);
+  font-weight: 500;
+  color: var(--paper);
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.search__submit:hover:not(:disabled) { background: transparent; color: var(--ink); }
+
+.search__submit:disabled {
+  background: transparent;
+  color: var(--muted);
+  border-color: var(--rule);
+  cursor: not-allowed;
+}
+
+/* --- lede ----------------------------------------------------------------- */
+
+.lede {
+  max-width: 60ch;
+  margin: 2.5rem 0 0;
+  font-size: var(--t-lede);
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+  text-wrap: pretty;
+}
+
+.lede__note {
+  max-width: 62ch;
+  margin: 0.5rem 0 0;
+  font-size: var(--t-body);
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+/* --- coverage field ------------------------------------------------------- */
+
+.field { margin-top: 2.5rem; }
+
+.field__head,
+.row {
+  display: grid;
+  grid-template-columns: 1.75rem minmax(6rem, 10rem) 1fr 6.25rem;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.field__head {
+  font-size: var(--t-micro);
+  color: var(--muted);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.field__nums,
+.row__nums {
+  display: grid;
+  grid-template-columns: 1fr 2.25rem;
+  column-gap: 0.75rem;
+  text-align: right;
+}
+
+.field__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  padding: 0.4375rem 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+@media (hover: hover) {
+  .row:hover { background: var(--panel); }
+}
+
+.row__rank {
+  font-family: var(--mono);
+  font-size: var(--t-micro);
+  color: #a2a89e;
+  font-variant-numeric: tabular-nums;
+}
+
+.row__skill {
+  font-family: var(--mono);
+  font-size: var(--t-sm);
+  overflow-wrap: anywhere;
+}
+
+/* Graph-paper track: hairlines every 25%, a hard rule at full scale.
+   The unfilled remainder is data too — those postings never mentioned it. */
+.row__track {
+  position: relative;
+  height: 0.75rem;
+  min-width: 3rem;
+  background-image: repeating-linear-gradient(
+    to right, var(--rule) 0 1px, transparent 1px 25%
+  );
+  border-right: 1px solid var(--rule);
+}
+
+.row__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--w);
+  background: var(--mark);
+  transform-origin: left center;
+  animation: grow 420ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: calc(var(--i) * 18ms);
+}
+
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.row__nums {
+  font-family: var(--mono);
+  font-size: var(--t-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.row__count { color: var(--muted); }
+
+.field__scale {
+  display: grid;
+  grid-template-columns: 1.75rem minmax(6rem, 10rem) 1fr 6.25rem;
+  column-gap: 1rem;
+  margin-top: 0.5rem;
+  font-family: var(--mono);
+  font-size: var(--t-micro);
+  color: var(--muted);
+}
+
+.field__ticks {
+  grid-column: 3;
+  position: relative;
+  height: 1.25em;
+}
+
+/* Centred on the hairline each one labels, with the end labels pulled inside
+   the track so they don't overhang the field. */
+.field__ticks span {
+  position: absolute;
+  left: var(--p);
+  transform: translateX(-50%);
+}
+
+.field__ticks span:first-child { transform: none; }
+.field__ticks span:last-child  { transform: translateX(-100%); }
+
+/* --- states --------------------------------------------------------------- */
+
+.state {
+  max-width: 58ch;
+  margin: 3.5rem 0 0;
+}
+
+.state__title {
+  margin: 0 0 0.375rem;
+  font-size: var(--t-lg);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.state__body { margin: 0; color: var(--muted); text-wrap: pretty; }
+
+.state--error .state__title { color: var(--flag); }
+
+.state__hint {
+  margin: 1rem 0 0;
+  padding: 0.75rem 1rem;
+  background: var(--flag-tint);
+  font-family: var(--mono);
+  font-size: var(--t-sm);
+  overflow-x: auto;
+}
+
+.suggest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.suggest__btn {
+  font-family: var(--mono);
+  font-size: var(--t-sm);
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  padding: 0.3125rem 0.75rem;
+  cursor: pointer;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.suggest__btn:hover { border-color: var(--ink); background: transparent; }
+
+/* --- method note ---------------------------------------------------------- */
+
+.method {
+  max-width: 62ch;
+  margin: 3rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: var(--t-sm);
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+/* --- responsive ----------------------------------------------------------- */
+
+@media (max-width: 40rem) {
+  .field__head,
+  .field__scale { display: none; }
+
+  .row {
+    grid-template-columns: 1.5rem 1fr 6.25rem;
+    row-gap: 0.375rem;
+    padding: 0.625rem 0;
+  }
+
+  .row__track { grid-column: 1 / -1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
