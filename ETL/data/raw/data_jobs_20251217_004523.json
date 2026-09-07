@@ -1,0 +1,1472 @@
+{
+  "count": 53849,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "mean": 93797.18,
+  "results": [
+    {
+      "id": "5541960675",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MTk2MDY3NSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.NeDva7hYcsGX1JZDw0jURJkp_xIzPhis1A9SmpAFur4",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5541960675?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=3C82701FF605C173757B7E227D6BF9B88985B422",
+      "salary_is_predicted": "0",
+      "created": "2025-12-14T03:27:48Z",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "company": {
+        "display_name": "Sanofi",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "title": "Data Architect",
+      "description": "Reference No. R2828311 Position Title: Data Architect Department: Global Functions Location: Toronto, Canada About the Job Our Hubs are a crucial part of how we innovate, improving performance across every Sanofi department and providing a springboard for the amazing work we do. Build a career and you can be part of transforming our business while helping to change millions of lives. As a Data Architect at Sanofi, you’ll play a pivotal role in driving our Digital transformation through innovati…"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTMwOTkzNTcyIn0.T9LsnS697nsLLeCK3bKugB26IOyuZT0RdOq5uHnhSW0",
+      "id": "5530993572",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530993572?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=7A4C3E0520A466A4733E7206C068B19B20F60CBE",
+      "created": "2025-12-06T09:57:01Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Mississauga, Peel region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Synechron"
+      },
+      "title": "Data Analyst (Data Curator)",
+      "description": "We are At Synechron, we believe in the power of digital to transform businesses for the better. Our global consulting firm combines creativity and innovative technology to deliver industry-leading digital solutions. Synechron’s progressive technologies and optimization strategies span end-to-end Artificial Intelligence, Consulting, Digital, Cloud & DevOps, Data, and Software Engineering, servicing an array of noteworthy financial services and technology firms. Through research and development i…"
+    },
+    {
+      "salary_is_predicted": "0",
+      "created": "2025-12-01T04:57:46Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969956?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=638BEFACCE19E9E70A1E29F8C8B172C14A588194",
+      "id": "5520969956",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5OTU2In0.LuOeBDAujAm8TkWPhvh2E2F5q1zBCmwkoXKIn9TVGcc",
+      "title": "Data Manager",
+      "description": "Location: Mississauga, ON Travel: ~25% across North America and Europe A leading global manufacturer is hiring a strategic Global Data Manager to spearhead enterprise-wide initiatives in data governance, quality, and ERP data conversion. This high-impact role ensures the integrity, accessibility, and security of organizational data while driving compliance and modernization across systems. Key Responsibilities Data Strategy & Governance Lead the development and implementation of data governance…",
+      "latitude": 43.706102,
+      "company": {
+        "display_name": "Experis",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      }
+    },
+    {
+      "created": "2025-12-14T10:35:09Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5542136799?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=330CCD11FB54A769D6617758E6272082CA770B62",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MjEzNjc5OSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.dysVktgjkdPvtKvoYnNuaF3cvtbOgQOdG3SSbFaM_lM",
+      "id": "5542136799",
+      "description": "Dynamic Risk is a widely recognized integrity, risk management and software solutions company within the energy sector. We’ve been delivering our expertise and solutions since 1996 and we’ve become the industry-leading provider of pipeline integrity management solutions, which includes our suit of IRAS Software Applications. Purpose The goal of the IMP, Data Science Advisor is to be at the forefront of innovation, helping customers leverage and mine their pipeline integrity data to optimize the…",
+      "title": "Data Scientist",
+      "company": {
+        "display_name": "Dynamic Risk Assessment Systems, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTQwOTUzODIxIn0.PM2uQwQTB0jRhFf29HatT4Fk0I7xaUtQhQ7IrGDXsTU",
+      "longitude": -79.402726,
+      "id": "5540953821",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5540953821?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=394BF3D50E81F0952978A03CA2BD407222334253",
+      "created": "2025-12-13T08:51:20Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "New York Technology Partners"
+      },
+      "latitude": 43.706102,
+      "title": "Data Scientist",
+      "description": "Responsibilities and Duties Collaborate with both internal and external stakeholders to identify business needs, prioritize objectives, define key performance indicators, and formulate a data-driven strategy. Lead data requirement workstreams with business stakeholders and clients by creating a cohesive process where detailed requirements around data exchange between various systems can be captured at the beginning of a new business initiative. Demonstrate leadership and initiative in gathering…"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNjA2ODk2OSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.lj0YEIDYxj2fu5fOFFgZySD42eEDoUEN4-_b4P7CLqY",
+      "id": "5536068969",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5536068969?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=570AD7B91874C0C2BFA532C7686787EBD00CF2B7",
+      "created": "2025-12-10T06:57:52Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ]
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "TechDoQuest",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Engineer",
+      "description": "Assessment & Responsibilities: Experience in Data Connection, extraction from different systems including both cloud based and On Premise systems (e.g. Azure, Oracle, SAP, BMC, SNOW, Salesforce etc.) and transformation & loading into the process mining tool. Support validation of data (counts, values between source systems and process mining tool). Understanding of process insights by creating KPIs and actions, identify process inefficiencies, and understand the root causes. Experience / basic …"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969847?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=57F75EC216A9E22E9944535046B29B63E8094D7C",
+      "created": "2025-12-01T04:57:45Z",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5ODQ3In0.lBCXVImqgF01MqT_tPXdUsKrD5vcxQz_Mn1AUzK6i30",
+      "longitude": -79.402726,
+      "id": "5520969847",
+      "latitude": 43.706102,
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…",
+      "title": "Data Engineer",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Tata Consultancy Services",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "id": "5520969664",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5NjY0In0.y2zWsMpibLbO99CT1jPETc5rtadPTuU4dShFpWTU3ug",
+      "longitude": -79.402726,
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969664?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=C44E359B009B110C6F1142049471FEF6F729AD46",
+      "salary_is_predicted": "0",
+      "created": "2025-12-01T04:57:43Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tata Consultancy Services"
+      },
+      "latitude": 43.706102,
+      "title": "Data Engineer",
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…"
+    },
+    {
+      "title": "Data Engineer",
+      "description": "Number of Vacancies : 4 Level : MP4 Duration : 11 Months Hours of work: 35 hours Location : Oshawa, ON (Hybrid – 3 days remote) Job Overview As an Azure and Databricks Data Engineer, you will be responsible for designing, building and supporting the data driven applications which enable innovative, customer centric digital experiences. Will be working as part of a cross-discipline agile team who help each other solve problems across all business areas. Will build reliable, supportable & perform…",
+      "latitude": 43.902993,
+      "company": {
+        "display_name": "Morson Edge ",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Durham region",
+          "Oshawa"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Oshawa, Durham region"
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-12T09:22:09Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5539575423?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=1F677EE7C02722715410019C54EA6E020E942C95",
+      "id": "5539575423",
+      "longitude": -78.858745,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzOTU3NTQyMyIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.LxmUrSyTZ7rcEopoDDcAjnZi9aAulTjH0ON5Ej1D_Ko"
+    },
+    {
+      "latitude": 44.600235,
+      "title": "Data Engineer",
+      "description": "Job Description Looking for Senior Data Engineers who are experienced, self-driven, analytical, and strategic. In this role, you will work with clients across large and complex data lake/warehouse environments. You are passionate about working with disparate datasets in order to bring data together to answer business questions. You should have deep expertise in the creation and management of datasets and the proven ability to translate the data into meaningful insights through collaboration wit…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "Nova Scotia",
+          "Halifax region",
+          "Harrietsfield"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Harrietsfield, Halifax region"
+      },
+      "company": {
+        "display_name": "ThoughtsWin",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5510946909?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=E566334555A61B30985E5151FDF64D2DD9A6DED1",
+      "salary_is_predicted": "0",
+      "created": "2025-11-23T20:55:08Z",
+      "id": "5510946909",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxMDk0NjkwOSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.4Zg49PZ8orBEJcyrUKMTETTum5zWRl0zE8M24m1olVE",
+      "longitude": -63.610578
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwMTU4ODUwIn0.NpVvmBmbghzTyE8sizPDZml73OH1jByyPS32s48tIy0",
+      "longitude": -73.608589,
+      "id": "5520158850",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520158850?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=94374B36EC4539A6EC3E9FAD4AD97140119E2E6D",
+      "created": "2025-11-30T10:48:36Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal",
+          "Outremont"
+        ],
+        "display_name": "Outremont, Montréal"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Future Electronics"
+      },
+      "latitude": 45.518589,
+      "description": "About the role Data engineers design, build, and optimize systems for data collection, storage, access, and analytics at scale. They create data pipelines that convert raw data into formats usable by data scientists, data-centric applications, and other data consumers. Their primary responsibility is to make data available, accessible, and secure to stakeholders. What you’ll be working on Building and maintaining data pipelines: Develop and manage data pipelines that collect, process, and store…",
+      "title": "Data Engineer"
+    },
+    {
+      "title": "Data Engineer",
+      "description": "Role: Data Engineer Location: Vancouver, BC Term: Full Time Skills-Azure, Data Modelling, Power BI, DAX, SQL, Azure Data Factory, ADX, Python, C# Key Responsibilities Design and implement data models to support analytics and reporting needs. Create interactive dashboards and reports in Power BI leveraging DAX for advanced calculations. Optimize SQL queries and manage relational databases for performance and scalability. Work with Azure services (ADF, ADX, Blob Storage, etc.) to build robust dat…",
+      "latitude": 49.256582,
+      "company": {
+        "display_name": "Epsilon Solutions Ltd.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Greater Vancouver, British Columbia"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-12-14T10:35:14Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5542136913?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=37997E4F929070C6587D7F0AE5FE5F556A139FBE",
+      "longitude": -122.898456,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTQyMTM2OTEzIn0.qDnKfpTYEtQ5BrJqmE2ik7-RRFkwhZCcrx3-BX0fKTY",
+      "id": "5542136913"
+    },
+    {
+      "salary_is_predicted": "0",
+      "created": "2025-12-06T09:57:54Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530995216?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=287D8B4D0DD3EF44797C5EFA4395E3FAFBB01E3F",
+      "id": "5530995216",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMDk5NTIxNiIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.8czqbxtkV4qwOmoSu9HRfzeUTHkmROheqHVVBqMZpY8",
+      "longitude": -79.402726,
+      "title": "Data Engineer",
+      "description": "We are looking for a highly skilled and specialized Data Engineer Job Title: Data Engineer Job Location: Toronto Job Type: Full - Time This is an onsite position requiring employees to work from the office five times per week. This role requires a unique blend of expertise spanning established open-source tools (Talend, Pentaho), modern cloud-native platforms (Azure Data Factory, Airbyte ), and deep technical data management skills including advanced data modeling, SQL mastery, and rigorous STT…",
+      "latitude": 43.706102,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "CloudVital"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "contract_time": "full_time"
+    },
+    {
+      "latitude": 49.256582,
+      "description": "Greetings from ITC Infotech! Role - Sr. Data Engineer Location - Vancouver, BC Start Date: Immediate Job description: Role Summary: We’re looking for an experienced Data Engineer to design, build, and maintain scalable data pipelines and models supporting financial reporting, analytics, and compliance. You’ll work with finance and data teams to ensure high-quality, governed, and reliable data across the Finance Data Hub. Key Responsibilities Design and develop robust ETL/ELT pipelines integrati…",
+      "title": "Data Engineer",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "display_name": "Greater Vancouver, British Columbia"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ITC Infotech"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5536068981?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=FAA4084822224B08B353C698E89B994422D5C91B",
+      "created": "2025-12-10T06:57:52Z",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTM2MDY4OTgxIn0.DJd6fUpK48i5wz2ps3aKYMgo0N0VRyAZdNNeYDVJA4U",
+      "longitude": -122.898456,
+      "id": "5536068981"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Teranet Inc."
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "title": "Data Scientist",
+      "description": "Data Scientist Who We Are Teranet is Canada’s leader in the delivery and transformation of statutory registry services with extensive expertise in land and commercial registries. We also market insightful property and data solutions, as well as practice management automation to thousands of customers in the real estate, financial services, government, utilities, and legal markets. Connect. Grow. Thrive Together. To learn more about who we are visit our website: www.teranet.ca About the Role The…",
+      "latitude": 43.706102,
+      "id": "5488498745",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ4ODQ5ODc0NSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.4Jvyry9BBR-c9Ryfobyo6PRA_yV_mDwUkcR0PBPoBIk",
+      "salary_is_predicted": "0",
+      "created": "2025-11-09T09:46:31Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5488498745?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=07B4DB878ACD9B46C7C5357AF98D07EDFCDB6340"
+    },
+    {
+      "id": "5514426375",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNDQyNjM3NSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.nWzM5Z2WMSwvDy_1KiPkKtpPrKIPYUOHSsWh29nRtnA",
+      "salary_is_predicted": "0",
+      "created": "2025-11-26T06:20:31Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5514426375?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=8786BF06B00EAE5D9162C4C2255580B3C43C16F6",
+      "company": {
+        "display_name": "MM Management Consultant",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada"
+      },
+      "title": "Data Analyst",
+      "description": "Senior Data Analyst (AWS & QuickSight) – Contractor Completely Remote Key Responsibilities Translate business needs into structured requirements for QuickSight dashboards Identify source tables, fields, and relationships across Aurora, DynamoDB, and Athena Write, optimize, and validate SQL queries for data extraction and transformation Perform thorough data validation and QA across multiple data sources Collaborate with product, engineering, and AI platform teams to define KPIs and metrics Deve…"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5517708625?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=98FF8A9EFDBD9F2FBA40B4D6AF9679D82AD197FF",
+      "created": "2025-11-28T08:58:19Z",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUxNzcwODYyNSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.sKuuiYB5LUheQ7lXVwnhqRmEV0-tFZa0_4IV7bnNSfg",
+      "id": "5517708625",
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…",
+      "title": "Data Engineer",
+      "location": {
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Tata Consultancy Services",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MA "
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "description": "We are looking for an Data Engineer who: Has worked as an independant contractor before Has worked for an agency or consulting company in the past within their professional services departments Is willing to accept an intitial 3 month contract Has worked in the marketing analytics space Can understand data needs, scope requirements, and build scalable pipelines and custom APIs that pull and transform data from major marketing and social platforms. Can design, optimize, and maintain ETL processe…",
+      "title": "Data Engineer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUwOTA2MjIxNiIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.0ECGBYGTCZZAOSEYj108IgzIgrkIsVRIzQBdUZvw76s",
+      "id": "5509062216",
+      "created": "2025-11-22T08:46:29Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5509062216?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=FE8C41D32E92C573260CD8039FCA9CC1A94B6A16",
+      "contract_type": "contract"
+    },
+    {
+      "title": "Data Scientist",
+      "description": "LatentView Analytics is a leading global analytics and decision sciences provider, delivering solutions that help companies drive digital transformation and use data to gain a competitive advantage. With analytics solutions that provide a 360-degree view of the digital consumer, fuel machine learning capabilities, and support artificial intelligence initiatives., LatentView Analytics enables leading global brands to predict new revenue streams, anticipate product trends and popularity, improve …",
+      "latitude": 43.706102,
+      "company": {
+        "display_name": "LatentView Analytics",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs",
+        "label": "Engineering Jobs"
+      },
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-03T07:37:34Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5525656684?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=2B8A4992DC7C90DA110B394796B9FC9BE198BDD1",
+      "id": "5525656684",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTI1NjU2Njg0In0.elus3Enzk20XcTGSSUYtmjLeN_O43Zg6HpeRbd6_8WM"
+    },
+    {
+      "title": "Data Scientist",
+      "description": "Nous recrutons actuellement pour l’un de nos clients : Poste : Data Scientist / Spécialiste IT  Localisation : Montréal, Québec  Secteur : Consultation géologique Objectif du poste Contribuer à l’amélioration des flux de travail internes, à l’optimisation des processus analytiques et au développement de modèles prédictifs avancés (notamment Random Forest). Le candidat idéal possède une solide expertise en Machine Learning, en gestion de bases de données et, idéalement, en informatique quantique…",
+      "company": {
+        "display_name": "Leyton",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ],
+        "display_name": "Canada"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "created": "2025-12-07T11:01:52Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369548?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=E61101A25FF953DACE8417C7628CAAF891AACDC7",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjM2OTU0OCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.iLR_SuiwlCpMt1cTJtWNW9z8k5fm8pIhcARWtaavh6I",
+      "id": "5532369548"
+    },
+    {
+      "latitude": 43.706102,
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…",
+      "title": "Data Engineer",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tata Consultancy Services"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5540950928?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=8C866C3C07FA45F4094C61114454A630B12D467F",
+      "created": "2025-12-13T08:50:15Z",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MDk1MDkyOCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.Aj2YW9quOHNbOciduR51dtawE0tK2TETDTROkfDJRKA",
+      "longitude": -79.402726,
+      "id": "5540950928"
+    },
+    {
+      "id": "5527292023",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTI3MjkyMDIzIn0.ryNxHdtSnDLOm-99cLrrDOw9wFLE1aF4aPAybg0x1Oo",
+      "salary_is_predicted": "0",
+      "created": "2025-12-04T07:58:06Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5527292023?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=FD4D8359CBBA7E46BD7786ACA40CBA309C4A36CF",
+      "company": {
+        "display_name": "Tundra Technical Solutions",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "Accounting & Finance Jobs",
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Halton",
+          "Oakville"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Oakville, Halton"
+      },
+      "title": "Data Scientist",
+      "description": "Job Title: Data Scientist Location: Greater Toronto Area, ON (Hyrbrid) Estimated Duration: Fulltime What you’ll do Research innovative new machine-learning tools and techniques, and assess for suitability for adoption within the business Build and maintain custom predictive models, including all steps for ideation to production Develop benchmarks and reporting to evaluate performance of new ML models Participate in evaluation of new 3rd-party tools and provide guidance on adoption within the co…"
+    },
+    {
+      "id": "5509062029",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTA5MDYyMDI5In0.y1GkOR3RPPxBNWcxWfiMRNe4zBmC-9hrt7zzQQ_Ey2E",
+      "salary_is_predicted": "0",
+      "created": "2025-11-22T08:45:50Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5509062029?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=6EE04A15E3D6ED6823A13C18B3DC3768AA2C43D9",
+      "company": {
+        "display_name": "Tata Consultancy Services",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "title": "Data Analyst",
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, cons…"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520970483?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=D6D55CED70C86E2906630E3A0200D5D86B314401",
+      "created": "2025-12-01T04:57:49Z",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyMDk3MDQ4MyIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.81kjV1D8QWxBz8Q_nOWPowE4-bL6eMc9AbduR3UmMO0",
+      "longitude": -79.402726,
+      "id": "5520970483",
+      "latitude": 43.706102,
+      "title": "Senior Data Architect",
+      "description": "The Role Bitstrapped is seeking an experienced and hands-on Senior Data Architect. The Senior Data Architect will be key to our Enterprise delivery team by modelling, designing, and implementing solutions to meet client requirements and business needs. As a Data Architect, you will collaborate closely with business stakeholders, data architects, and data engineering teams to design and implement data architectures, including pipelines, models, migrations, schemas, security, and operational comp…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Bitstrapped"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5534609640?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=AD3EB683ADE86279CCC624E11132C60E4DD16B76",
+      "salary_is_predicted": "0",
+      "created": "2025-12-09T09:38:57Z",
+      "id": "5534609640",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNDYwOTY0MCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.Cntnd5fuQqgUfTS0-Lkb8NcTr1kzDXfzsXzDPCUtBIU",
+      "latitude": 43.706102,
+      "description": "Min 10 years of experience needed Role Overview We are seeking a visionary and hands-on Senior Data Architect with 10 years of experience to lead the design and implementation of scalable, secure, and high-performance data architectures across GCP, AWS, and Azure. This role is central to our cloud-first strategy, enabling advanced analytics, AI/ML, and real-time data capabilities across the enterprise Key Responsibilities Define and implement enterprise-wide data architecture strategies across …",
+      "title": "Senior Data Architect",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "company": {
+        "display_name": "TechDoQuest",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "contract_time": "full_time",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "company": {
+        "display_name": "Hire DigITalent Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "description": "Our client is a fast-moving, innovation-driven team at the forefront of artificial intelligence, based in Toronto and embedded in Canada’s thriving AI ecosystem. They are seeking a Senior Data Engineer for a 12-month contract starting in January, with a strong possibility for extension or conversion to full-time. The role requires 2-3 days onsite at their Toronto office. They specialize in transforming ambitious concepts into high-impact, real-world solutions. Their work spans intelligent autom…",
+      "title": "Senior Data Engineer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5NjYwIn0.t_UeZOp6ajy9ahQ8A1HLm5tKbajDYhQ7Kcf_ZJoCrfI",
+      "longitude": -79.402726,
+      "id": "5520969660",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969660?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=3B30ABD3C9415AF8D3812173F5391689DF4DB138",
+      "contract_type": "contract",
+      "created": "2025-12-01T04:57:43Z",
+      "salary_is_predicted": "0"
+    },
+    {
+      "company": {
+        "display_name": "EnStream LP",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "contract_time": "full_time",
+      "title": "Senior Data Scientist",
+      "description": "Job Title: Senior Data Scientist Location: Toronto Department: AI & Data Engineering Type: Full-time Reports to: Head of Applied AI & Data Engineering Who is EnStream EnStream is a leader in secure digital identity and mobile data intelligence, working to advance the future of digital trust in Canada. We build innovative data-driven models that enhance the integrity, reliability, and safety of digital identity ecosystems. Our latest initiative leverages advanced data science , machine learning …",
+      "latitude": 43.706102,
+      "id": "5535535232",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTM1NTM1MjMyIn0.5PZjvO2NOBo5vWMIXOtwOvVhM03hVNyMjqWnR-7cE98",
+      "salary_is_predicted": "0",
+      "created": "2025-12-09T20:28:55Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5535535232?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=343D0FB878E2CE234EC3C9CE7CBECE1127975616"
+    },
+    {
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people’s stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, co…",
+      "title": "Senior Data Scientist",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tata Consultancy Services"
+      },
+      "location": {
+        "display_name": "Mississauga, Peel region",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "created": "2025-12-09T09:38:59Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5534609676?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=4CB245007F35698BC85CD5CD3ED28D8CCD331C04",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTM0NjA5Njc2In0.UatPFwA9VMIfz6Rmebkz9GceyCCYsOl8BqQaCOqALjQ",
+      "id": "5534609676"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyMDk2OTgwMiIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.0gPp93qgyj34ZGiswAHCKGAX-_jlclLJDHM3TazJYFs",
+      "id": "5520969802",
+      "created": "2025-12-01T04:57:44Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969802?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=1399106C82F13E1D18C1AE4B960FFC98410F22B8",
+      "company": {
+        "display_name": "Synechron",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ],
+        "display_name": "Mississauga, Peel region"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Data integrator  SSIS",
+      "description": "We are At Synechron, we believe in the power of digital to transform businesses for the better. Our global consulting firm combines creativity and innovative technology to deliver industry-leading digital solutions. Synechron’s progressive technologies and optimization strategies span end-to-end Artificial Intelligence, Consulting, Digital, Cloud & DevOps, Data, and Software Engineering, servicing an array of noteworthy financial services and technology firms. Through research and development i…"
+    },
+    {
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969668?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=AC6CB13D749993AF7752A42A1BCE2EFD407E71BF",
+      "salary_is_predicted": "0",
+      "created": "2025-12-01T04:57:43Z",
+      "id": "5520969668",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5NjY4In0.AB1KCEa2PZh80LCnvZ3Z487LewB7bQlXxXYNaY2hDbA",
+      "title": "Data Quality Engineer",
+      "description": "Job Responsibilities • Collaborate with cross divisional project managers, technology product owners, and firm data office engineering teams to ensure alignment on goals and deliverables for the global regulatory program delivering data quality reporting on critical reporting • Conducts a communication style that effectively “bridges the gaps” between policy, central tooling, program governance, and delivery. • Work directly with development teams to educate them on intended outcomes and availa…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ]
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Open Systems Technologies"
+      }
+    },
+    {
+      "id": "5542136820",
+      "longitude": -123.078768,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTQyMTM2ODIwIn0.pv4fJvBHQdJ24_X3ovZve6ftfAUXNHDFzZfy4zVSpuo",
+      "salary_is_predicted": "0",
+      "created": "2025-12-14T10:35:10Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5542136820?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=6E05D6A90421C13EADCB7828E384A09FAC399773",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "C5i"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "British Columbia, Canada",
+        "area": [
+          "Canada",
+          "British Columbia"
+        ]
+      },
+      "title": "Senior Data Engineer",
+      "description": "C5i is a pure-play AI & Analytics provider that combines the power of human perspective with AI technology to deliver trustworthy intelligence. The company drives value through a comprehensive solution set, integrating multifunctional teams that have technical and business domain expertise with a robust suite of products, solutions, and accelerators tailored for various horizontal and industry-specific use cases. At the core, C5i’s focus is to deliver business impact at speed and scale by drivi…",
+      "latitude": 51.467658
+    },
+    {
+      "location": {
+        "display_name": "Canada",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Tata Consultancy Services"
+      },
+      "title": "Big Data Developer",
+      "description": "Inclusion without Exception: Tata Consultancy Services (TCS) is an equal opportunity employer, and embraces diversity in race, nationality, ethnicity, gender, age, physical ability, neurodiversity, and sexual orientation, to create a workforce that reflects the societies we operate in. Our continued commitment to Culture and Diversity is reflected in our people’s stories across our workforce and implemented through equitable workplace policies and processes. About TCS: TCS is an IT services, co…",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTIwOTY5ODk3In0.0mCC0ahMT1F0LKP_xK2MjlBgj3FNLDKqcaWmhPAlfV4",
+      "id": "5520969897",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5520969897?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=E30DF8BF9E4666563FD292C03DD7EED647908DB6",
+      "created": "2025-12-01T04:57:45Z",
+      "salary_is_predicted": "0"
+    },
+    {
+      "created": "2025-12-05T15:09:42Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5529824390?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=11FF215B41C9FCA34F962673FC65BC225DFA9789",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUyOTgyNDM5MCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.zMVDTilOms5BjpCxYF_y4YEbeQqNLRQoHTpbHnPr5GU",
+      "id": "5529824390",
+      "title": "Azure Data Engineer",
+      "description": "Role: Azure Data Engineer Location: Toronto(Hybrid) Responsibilities: Design, build, and optimize large-scale ETL/ELT pipelines using Databricks and PySpark. Develop and maintain data ingestion frameworks for structured and unstructured datasets in ADLS. Collaborate with data analysts, data scientists, and product teams to understand business requirements and implement scalable data solutions. Implement data transformations using functional programming principles for reusable and modular code. …",
+      "latitude": 43.706102,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Themesoft Inc."
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTMyMzY5NTQ2In0.3_ePisGW4FJL4aq69HNHuzDlyGbS1YuNyzDOSSqHemY",
+      "id": "5532369546",
+      "created": "2025-12-07T11:01:52Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369546?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=FB2A51EF43A7C31913AB5ECB95C55E800E97E1C3",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "K2 Services"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada",
+        "area": [
+          "Canada"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Director of Data Architecture",
+      "description": "The Director of Data Architecture will lead the design and execution of the enterprise data strategy, ensuring scalable, secure, and high-performing data solutions that enable advanced analytics and business intelligence. This role will oversee data warehousing, integration, governance, and architecture standards across the organization, with a strong focus on leveraging modern cloud technologies. Experience with Snowflake and other cloud-based platforms is highly desirable. This role will be e…"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ4MTA3MTk1MiIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.j4-CpQP-iq6tzX1QfHR-EoxzS2iJmwfUy_8HnygxF-M",
+      "id": "5481071952",
+      "created": "2025-11-04T16:04:04Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5481071952?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=38289ACAC482F30EC5A06366E9F9A444F0A1C395",
+      "company": {
+        "display_name": "Realist AI",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "description": "Role: Cloud Data Engineer SUBCONTRACTOR Realist AI, an industry leader in data and cloud solutions, is seeking data engineers to join our growing network of subcontractors. We are looking for professionals with a passion for building scalable, reliable data pipelines to support cutting-edge Cloud applications and to support the many data offerings Realist AI has for Google Cloud Platform (GCP). Key Responsibilities Design, develop, and maintain robust data pipelines to ingest, process, and tran…",
+      "title": "(Cloud) Data Engineer"
+    },
+    {
+      "company": {
+        "display_name": "VLink Inc",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Mississauga, Peel region",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ]
+      },
+      "title": "Data Engineer with MDM",
+      "description": "Job Title: Sr. Mid-level Data Engineer  MDM Location: Mississauga, ON - Hybrid Employment: Contract opportunity Must be willing to attend Client L1 at Synechron’s Mississauga/Montreal office. About VLink: Started in 2006 and headquartered in Connecticut, VLink is one of the fastest growing digital technology services and consulting companies. Since its inception, our innovative team members have been solving the most complex business, and IT challenges of our global clients. Job Description: Le…",
+      "id": "5482881605",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NDgyODgxNjA1In0.lgSN4snJ2unTMUFgiUnD4OsZ4HkrnBQwMoHhapQ4rNs",
+      "salary_is_predicted": "0",
+      "created": "2025-11-05T18:04:43Z",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5482881605?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=AD5164F0C4BC5315C748376018D8103D22B94AE5"
+    },
+    {
+      "latitude": 45.573903,
+      "title": "Data Engineering Intern",
+      "description": "About SalesPilot 365 SalesPilot 365 is a modern staffing and talent acquisition platform connecting organisations with top-tier talent across emerging technology domains. As part of our expansion into data-driven and cloud-first ecosystems, we are inviting motivated individuals to join our Data Engineering Internship Cohort . Role Overview As a Data Engineering Intern at SalesPilot 365 , you will work with data and engineering teams to design, build, and maintain data pipelines that support ana…",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "display_name": "Montréal North, Montréal",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Québec",
+          "Montréal",
+          "Montréal North"
+        ]
+      },
+      "company": {
+        "display_name": "SalesPilot 365 | CRM",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530992317?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=F609A2A86B5E82BB273E7DF51BAB8477EAB3B2F4",
+      "salary_is_predicted": "0",
+      "created": "2025-12-06T09:56:12Z",
+      "id": "5530992317",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTMwOTkyMzE3In0.ynQAxMBx1S5nWlw50099n-OEQbCs6A8vVx3xKWnq6h8",
+      "longitude": -73.650516
+    },
+    {
+      "title": "Data Engineer (Contract)",
+      "description": "Job Title: Data Engineer (Contract) Location: Remote Term: 3-Month Contract (High Chance of Renewal) What is the Opportunity? We are looking for an experienced Data Engineer to join a talented Data Infrastructure team on an initial 3-month contract with a strong likelihood of renewal. In this role, you will help design, build, and optimize data solutions that support key business stakeholders and critical workflows. This position will play a key role in building a new Snowflake data mart and de…",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Quantum Technology Recruiting Inc. "
+      },
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5516055790?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=EFF989400CF6B3C94B813AA66DF08F7E199CF62D",
+      "salary_is_predicted": "0",
+      "created": "2025-11-27T07:29:15Z",
+      "id": "5516055790",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTE2MDU1NzkwIn0.GzKOz5wCD9QyS6dpLZq7qhGu8w1BBLY_uaod7Fa6Ry8"
+    },
+    {
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "SalesPilot 365 | CRM",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "description": "About SalesPilot 365 SalesPilot 365 is a modern staffing and talent acquisition platform connecting organisations with top-tier talent across emerging technology domains. As part of our expansion into data-driven and cloud-first ecosystems, we are inviting motivated individuals to join our Data Engineering Internship Cohort . Role Overview As a Data Engineering Intern at SalesPilot 365 , you will work with data and engineering teams to design, build, and maintain data pipelines that support ana…",
+      "title": "Data Engineering Intern",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMDk5MzczOCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.do9LtC9DY1lnK7EhTnnFbUemxtQJ-5FISd7H-c6cms8",
+      "longitude": -79.402726,
+      "id": "5530993738",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5530993738?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=4771982CFE4C218397404A5B5FBFAB90042793D7",
+      "contract_type": "contract",
+      "created": "2025-12-06T09:57:07Z",
+      "salary_is_predicted": "0"
+    },
+    {
+      "company": {
+        "display_name": "Alquemy Search & Consulting",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario"
+        ],
+        "display_name": "Ontario, Canada"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "SENIOR DATA ENGINEER Our Ontario based client is seeking a Senior Data Engineer to join their team. RESPONSIBILITIES: Design, build and implement batch and real-time data pipelines. Develop and propose design patterns and ensure the proposed design, optimally addresses access and query patterns; data consumption and adheres to internal architecture standards. Work with various stakeholders across the business, data scientists and IT. Refine data requirements to meet various data and analytics i…",
+      "title": "Senior Data Engineer",
+      "latitude": 44.810161,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzNjA2ODg0MSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.VKGhgKv1aET5Xay-QCH4bt4RJJrFx_FyL9i4OHdzxD0",
+      "longitude": -80.420891,
+      "id": "5536068841",
+      "created": "2025-12-10T06:57:17Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5536068841?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=BF26198DE277047E8303AC40F5000D1DCD5F7185",
+      "contract_type": "contract"
+    },
+    {
+      "salary_is_predicted": "0",
+      "created": "2025-12-12T09:22:20Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5539575505?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=7035BC8F4DDB321CBAEAF009BF7D362B4CEFF757",
+      "id": "5539575505",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTM5NTc1NTA1In0.A8mG8EKTZuLA1MQCbkoVo8xJO05Nt7bpZEu6deFcF20",
+      "longitude": -122.898456,
+      "title": "Senior Data Engineer",
+      "description": "Avanciers is hiring Senior Data Engineer at Vancouver, BC for one of our Fortune 500 clients. This is a Full-time Role with the client. Benefits will be covered by the Client. Job Title: Senior Data Engineer Location: Vancouver, BC (3-4 Days/ Week Hybrid) Full-time role Data Engineer with expertise in Azure, data modelling, Power BI, DAX, SQL, Azure Data Factory, ADX, Python, and C#. The role involves designing and implementing scalable data models to support analytics and reporting. You will b…",
+      "latitude": 49.256582,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avanciers Inc."
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "British Columbia",
+          "Greater Vancouver"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Greater Vancouver, British Columbia"
+      },
+      "contract_time": "full_time"
+    },
+    {
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Peel region",
+          "Mississauga"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Mississauga, Peel region"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Synechron"
+      },
+      "title": "Data Engineer with OpenShift",
+      "description": "At Synechron , we believe in the power of digital to transform businesses for the better. Our global consulting firm combines creativity and innovative technology to deliver industry-leading digital solutions. Synechron’s progressive technologies and optimization strategies span end-to-end Artificial Intelligence, Consulting, Digital, Cloud & DevOps, Data, and Software Engineering, servicing an array of noteworthy financial services and technology firms. Through research and development initiat…",
+      "id": "5540828276",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTQwODI4Mjc2In0.bjBnNCscKmJL_cdyxwuWOgms-6o9pCz2QV1I1GwhVJg",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5540828276?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=DB02C441FEDFB8E9EE0303A1AC515710D2F5D005",
+      "salary_is_predicted": "0",
+      "created": "2025-12-13T02:44:46Z"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "CI Financial"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "display_name": "Toronto, Ontario"
+      },
+      "category": {
+        "tag": "engineering-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Engineering Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "At CI, we see a great place to work as one that is a safe place for everyone to have a voice, where people are empowered to take ownership over meaningful work, where there is an opportunity to grow through stretching themselves, where they can work on innovative products and projects, and where employees are supported and engaged in doing so. CI Financial is looking for an innovative leader to join our Data, AI & Analytics (DNA) team as the Manager of Data Engineering (Delivery). In this manag…",
+      "title": "Manager, Data Engineering",
+      "latitude": 43.706102,
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ4MTA3MDczOSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.18MjUqlh2VBKzB9R5UXI21TEC6xlPTB4j5wu341Dfw8",
+      "id": "5481070739",
+      "created": "2025-11-04T16:02:53Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5481070739?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=8CB664FCB1B91DC9EE2B3ED1287E53F2F06F5D2E"
+    },
+    {
+      "description": "Senior Data Analyst Who We Are Teranet is Canada’s leader in the delivery and transformation of statutory registry services with extensive expertise in land and commercial registries. We also market insightful property and data solutions, as well as practice management automation to thousands of customers in the real estate, financial services, government, utilities, and legal markets. Connect. Grow. Thrive Together. To learn more about who we are visit our website: www.teranet.ca About the Rol…",
+      "title": "Senior Data Analyst",
+      "latitude": 43.706102,
+      "company": {
+        "display_name": "Teranet Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2025-11-05T18:04:43Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5482881593?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=9E15934C3B8DA0409615FE502518D80782F021B4",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NDgyODgxNTkzIn0.q7TD8fTw2iHfkMYMJo_KRSEjSTkGjkjI-gyS_SJW3f8",
+      "longitude": -79.402726,
+      "id": "5482881593"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTM5NTc1MjU3In0.FKM2ELYXUAKGNfUSw7BlHxr7IuZFSgbCelTvw5qArp8",
+      "longitude": -79.402726,
+      "id": "5539575257",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5539575257?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=4DB576A54FB4EE628293AA93A3BCFCB781983C08",
+      "contract_type": "contract",
+      "created": "2025-12-12T09:21:56Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Infotek Consulting Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 43.706102,
+      "description": "We are looking for a Data Analyst for a 10 months contract with high possibility of extension. Role is hybrid with 2 days a week on site in Downtown Toronto. Core Responsibilities Identifying Critical Data Elements (CDEs): Determine, document, and maintain key data elements essential to business processes, regulatory reporting, and analytics. Data Dictionary Management: Develop, maintain, and enhance enterprise-wide data dictionaries to support consistent data definitions and usage across the o…",
+      "title": "Intermediate Data Analyst"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Themesoft Inc."
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "title": "Azure Data Engineer",
+      "description": "Position : Azure Data Engineer Location : Toronto, On Responsibilities Design, build, and maintain scalable and performant data pipelines and ETL workflows using Azure Databricks and PySpark. Work with Azure Data Lake Storage (ADLS) to ingest, transform, and manage large datasets. Develop, optimize, and troubleshoot SQL queries for data processing and analytics. Build and orchestrate data workflows via Azure Data Factory (ADF). Implement best practices for functional programming, data governanc…",
+      "latitude": 43.706102,
+      "id": "5529825482",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTI5ODI1NDgyIn0.0ywI-QRDx3am6m6ggoKlmo-P9W80XvLDDfRnl5FKtQ8",
+      "salary_is_predicted": "0",
+      "created": "2025-12-05T15:10:13Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5529825482?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=EFB1C6BC4B2023AB2B433868D60CA2C37E7817E8"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Kaizen Technologies"
+      },
+      "location": {
+        "area": [
+          "Canada"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Canada"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Lead Data Analyst",
+      "description": "Role Title: Lead Data analyst Location: Hybrid Onsite – Calgary, Canada (3–4 days onsite expected) - Only local profiles Responsibilities: As part of a team focused on rationalizing different legacy hardware asset and configuration management solutions into a single strategic platform, we are looking for a data analyst. This is a dual role requiring interaction with stakeholders and technical delivery. The candidate will be part of a project to migrate data from legacy applications to a single …",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU0MjEzNjc5NSIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.fl1uFdRp0qHw1oWXonfMnR9ToujlHXhSjBLanThMfhY",
+      "id": "5542136795",
+      "created": "2025-12-14T10:35:09Z",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5542136795?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=67666AA10C050ED32A6F396ABD45617D145BB44B"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "UNICEF Canada"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Toronto, Ontario",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ]
+      },
+      "description": "Position Details Position Title: Data Integration Developer Employment Type: Full-time, Permanent (Vacant – New Role) Reports to: Deputy Director, Business Intelligence Direct Reports: 0 Salary Range: $70,500 to $85,500 per year annually with benefits and 3 weeks paid vacation Work Location: Toronto Work Environment: UNICEF Canada currently operates under a Flexible-Hybrid model that requires team members to attend the office at least 2 days/week. The Opportunity We are seeking a skilled Data I…",
+      "title": "Data Integration Developer",
+      "latitude": 43.706102,
+      "id": "5488498733",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQ4ODQ5ODczMyIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.GyALb3Xwap9O-RtEbFQDej2tSPLmK1S2PXGKvA4WIVo",
+      "longitude": -79.402726,
+      "salary_is_predicted": "0",
+      "created": "2025-11-09T09:46:30Z",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5488498733?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=EFB2FD84E9ADE584463DD0A8C0FFFC3448BECCCD"
+    },
+    {
+      "latitude": 43.706102,
+      "title": "Technical Data Integrator",
+      "description": "Technical Data Integrator Toronto, ON Schedule: M-F, Professional Working Day Contract: 6 months Introduction The Technical Data Integrator plays a crucial role in ensuring that data from various systems, platforms, and sources is seamlessly connected, transformed, and made usable for business operations, analytics, and decision-making. The Technical Data Integrator is responsible for designing, developing, and maintaining data integration solutions that enable the efficient flow of data across…",
+      "location": {
+        "area": [
+          "Canada",
+          "Ontario",
+          "Toronto"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toronto, Ontario"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Brunel"
+      },
+      "redirect_url": "https://www.adzuna.ca/land/ad/5505040350?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=0C4C06190A600D6510197E053291AE03ED148552",
+      "created": "2025-11-20T07:21:46Z",
+      "salary_is_predicted": "0",
+      "longitude": -79.402726,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoienUzQXEtSGE4Qkd6M2ZpRURxb3NxdyIsImkiOiI1NTA1MDQwMzUwIn0.1NRiPk_PiL6ZMTXrIvIRJ4ERJd2AX2JEqfWHJt81Kuc",
+      "id": "5505040350"
+    },
+    {
+      "title": "Data Systems Manager",
+      "description": "Company Description Building Better . MODUS Structures Inc. is an experienced off-site design, manufacturing, and construction company, based in Crossfield, Alberta. Established in 2004, MODUS has successfully provided innovative and cost-effective building solutions to the educational, commercial, residential, industrial, and institutional sectors. Operating two manufacturing facilities totaling 200,000 sq. ft. of insulated and heated workspace, the MODUS team works to design, manufacture, and…",
+      "latitude": 51.819325,
+      "company": {
+        "display_name": "Modus Structures Inc",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Bowden, Red Deer region",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "Canada",
+          "Alberta",
+          "Red Deer region",
+          "Bowden"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "created": "2025-12-07T11:01:52Z",
+      "redirect_url": "https://www.adzuna.ca/land/ad/5532369550?se=zu3Aq-Ha8BGz3fiEDqosqw&utm_medium=api&utm_source=542c51d7&v=6BB5A523C4DA9B1A54B44BCE6659AFF23F964BED",
+      "id": "5532369550",
+      "longitude": -113.96324,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTUzMjM2OTU1MCIsInMiOiJ6dTNBcS1IYThCR3ozZmlFRHFvc3F3In0.7E6tCYxmoEM01L8EnAqAYyeN9Oq7oX1Pmw-bDqGpTCQ"
+    }
+  ]
+}
