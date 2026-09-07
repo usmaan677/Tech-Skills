@@ -11,28 +11,40 @@ Routes are prefixed /api so the path is identical in both places:
     local  http://localhost:8000/api/search
     prod   https://<project>.vercel.app/api/search
 
-Nothing here touches the network or the environment at import time. A bad
-config makes a request return a readable 503; it must never crash the module,
-because a module that fails to import gives Vercel nothing to report but
-FUNCTION_INVOCATION_FAILED.
+IMPORT DISCIPLINE
+Importing this module must not be able to fail. It needs only fastapi and
+pydantic; supabase and dotenv are imported lazily inside the functions that
+use them, and their absence is reported by /api/health rather than raised.
+A module that fails to import gives Vercel nothing to show but
+FUNCTION_INVOCATION_FAILED, with the real reason buried in the runtime log.
 """
+
+# Keeps `X | None` style annotations from being evaluated at import time, so
+# this file parses and runs on Python 3.9 as well as 3.12.
+from __future__ import annotations
 
 import os
 import sys
-from pathlib import Path
 
-from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
-from supabase import Client, create_client
 
-# Local dev reads ETL/.env. On Vercel there is no .env file - the variables
-# come from the project's environment settings - so this quietly does nothing.
-load_dotenv(Path(__file__).resolve().parent.parent / "ETL" / ".env")
+# Local dev reads ETL/.env; on Vercel there is no .env file and the variables
+# come from project settings. Guarded so a missing python-dotenv cannot break
+# the deployment - it is only needed on a laptop.
+_DOTENV_ERROR = None
+try:
+    from pathlib import Path
+
+    from dotenv import load_dotenv
+
+    load_dotenv(Path(__file__).resolve().parent.parent / "ETL" / ".env")
+except Exception as e:  # pragma: no cover - local convenience only
+    _DOTENV_ERROR = f"{type(e).__name__}: {e}"
 
 
-def _env(name: str) -> str:
+def _env(name):
     """
     Read a variable, tolerating whitespace.
 
@@ -43,19 +55,26 @@ def _env(name: str) -> str:
     return (os.getenv(name) or "").strip()
 
 
-_client: Client | None = None
+_client = None
 
 
-def db() -> Client:
+def db():
     """
     Build the Supabase client on first use and reuse it afterwards.
 
-    Lazy on purpose: a serverless container is reused across requests, so
-    this cost is paid once per cold start, and a missing variable surfaces
-    as a 503 on a request rather than an import-time crash.
+    The supabase import lives here rather than at module scope so that a
+    dependency problem surfaces as a 503 with a real message instead of an
+    import-time crash.
     """
     global _client
     if _client is None:
+        try:
+            from supabase import create_client
+        except Exception as e:
+            raise HTTPException(
+                status_code=503, detail=f"supabase package unavailable: {type(e).__name__}: {e}"
+            )
+
         url, key = _env("SUPABASE_URL"), _env("SUPABASE_SERVICE_ROLE_KEY")
         if not url or not key:
             raise HTTPException(
@@ -71,9 +90,6 @@ def db() -> Client:
 
 app = FastAPI(title="Tech Skills API")
 
-# In production the site and the API share an origin, so no CORS is needed.
-# Locally the Vite dev server is on :5173 and this is on :8000, which is
-# cross-origin - hence the default. Override with a comma-separated list.
 ALLOWED_ORIGINS = [
     o.strip()
     for o in os.getenv("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
@@ -96,20 +112,27 @@ class SearchRequest(BaseModel):
 @app.get("/api/health")
 def health():
     """
-    Deployment diagnostics. Reports the shape of the config, never its values,
-    so it is safe to hit from a browser on a public URL.
+    Deployment diagnostics. Reports the shape of the config and which optional
+    imports resolved - never any secret value - so it is safe on a public URL.
     """
     url = _env("SUPABASE_URL")
     key = _env("SUPABASE_SERVICE_ROLE_KEY")
     raw_url = os.getenv("SUPABASE_URL") or ""
 
+    try:
+        import supabase
+
+        supabase_import = getattr(supabase, "__version__", "installed")
+    except Exception as e:
+        supabase_import = f"FAILED: {type(e).__name__}: {e}"
+
     return {
         "ok": True,
         "python": sys.version.split()[0],
+        "supabase_import": supabase_import,
+        "dotenv_error": _DOTENV_ERROR,
         "supabase_url_set": bool(url),
         "supabase_url_looks_valid": url.startswith("https://") and url.endswith(".supabase.co"),
-        # True means the pasted value carried stray whitespace - the usual
-        # cause of a URL that looks right in the dashboard but will not parse.
         "supabase_url_had_whitespace": raw_url != raw_url.strip(),
         "service_key_set": bool(key),
         "service_key_length": len(key),
