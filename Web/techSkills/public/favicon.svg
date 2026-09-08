@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Tech Skills Pulse">
+  <!-- Three descending coverage bars: the page's own mark, in its ultramarine.
+       Square ends and no corner radius, matching the design system. A filled
+       ground keeps it legible on both light and dark browser tab strips. -->
+  <rect width="32" height="32" fill="#1b3fa0"/>
+  <rect x="6" y="7"  width="20" height="4" fill="#eff0ea"/>
+  <rect x="6" y="14" width="14" height="4" fill="#eff0ea"/>
+  <rect x="6" y="21" width="9"  height="4" fill="#eff0ea"/>
+</svg>
